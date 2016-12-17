@@ -1,0 +1,42 @@
+.mxGoInBWGlobalBoxDiv.mxCastleGlobalBoxDiv
+{
+	display:table;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+}
+.mxGoInBWGlobalBoxDiv.mxCastleGlobalBoxDiv div.mxGBoxDiv {background:#f5f5f5;padding:0.5em;}
+.mxGoInBWGlobalBoxDiv.mxCastleGlobalBoxDiv div.mxGobanDiv
+{
+	margin:0 auto;
+	padding:1em;
+	font-size:1em;
+	background:url(../oldpaper.png);
+	-webkit-background-size:cover; /* Chrome, Safari */
+	-moz-background-size:cover; /* Firefox */
+	-o-background-size:cover; /* Opera */
+	background-size:cover;
+}
+.mxGoInBWGlobalBoxDiv.mxCastleGlobalBoxDiv div.mxGobanDiv canvas {}
+
+.mxGoInBWGlobalBoxDiv.mxCastleGlobalBoxDiv div.mxCommentDiv
+{
+	margin:0.5em auto 0 auto;
+	padding:0.5em;
+	text-align:justify;
+	height:8em;
+	overflow:auto;
+	white-space:normal;
+	background:#e6e6e6;
+}
+.mxGoInBWGlobalBoxDiv.mxCastleGlobalBoxDiv div.mxCommentDiv h1 {font-size:1em;text-align:left;margin:0 0 0.5em 0;}
+.mxGoInBWGlobalBoxDiv.mxCastleGlobalBoxDiv div.mxCommentDiv div.mxP {margin-bottom:0.5em;}
+.mxGoInBWGlobalBoxDiv.mxCastleGlobalBoxDiv div.mxHeaderDiv {margin-bottom:1em;}
+
+.mxGoInBWGlobalBoxDiv.mxCastleGlobalBoxDiv div.mxVersionDiv
+{
+	font-size:0.75em;
+	color:#ccc;
+	text-align:center;
+}
+

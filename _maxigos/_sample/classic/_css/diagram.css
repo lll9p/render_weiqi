@@ -1,0 +1,4 @@
+div.mxClassicGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxNotSeenDiv {text-align:left;margin:0.5em auto;}
+div.mxClassicGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxInNotSeenDiv
+{white-space:nowrap;display:inline-block;padding:0.1em;}
+div.mxClassicGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxInNotSeenDiv * {vertical-align:middle;}

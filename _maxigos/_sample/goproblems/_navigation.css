@@ -1,0 +1,139 @@
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv {padding:0.5em;text-align:left;background:#466;}
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv {display:none;}
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv button,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv button
+{
+	font-size:0.75em;
+	height:1.5em;
+	margin:0 0.1em;
+	vertical-align:middle;
+	background-color:#ddd;
+	border-top:1px solid #fcfafc;
+	border-left:1px solid #fcfafc;
+	border-right:1px solid #fcfafc;
+	border-bottom:1px solid #c4c6c4;
+	outline:1px solid #000;
+	background:linear-gradient(to top,#fcfafc,#ddd,#999);
+	color:#ec1e24;
+	padding:0;
+	width:3.25em;
+	box-shadow:none;
+}
+div.mxGoProblemsProblemGlobalBoxDiv div.mxSolveDiv button::-moz-focus-inner,
+div.mxGoProblemsProblemGlobalBoxDiv div.mxNavigationDiv button::-moz-focus-inner {padding:0;border:0;}
+div.mxGoProblemsProblemGlobalBoxDiv div.mxSolveDiv button:focus,
+div.mxGoProblemsProblemGlobalBoxDiv div.mxNavigationDiv button:focus
+{
+	outline:1px solid #fff;
+}
+
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv button div,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv button div
+{
+	display:block;
+	position:relative;
+	top:0;
+	height:1em;
+	width:0;
+	margin:0 auto;
+}
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv button div span,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv button div span {display:none;}
+
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv button div:before,
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv button div:after,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv button div:before,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv button div:after
+{
+	top:0;
+	position:absolute;
+	content:"";
+	border-width:0;
+	border-style:solid;
+	border-color:transparent #ec1e24;
+}
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv button:hover,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv button:hover {cursor:pointer;}
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv button:hover,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv button[disabled]:hover {cursor:default;}
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv button[disabled] div:before,
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv button[disabled] div:after,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv button[disabled] div:before,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv button[disabled] div:after
+{
+	border-color:transparent rgba(0,0,0,0.3);
+}
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv .mxRetryBtn div:before,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:before
+{
+	height:1em;
+	left:-0.375em;
+	border-width:0 0 0 0.175em;
+}
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv .mxRetryBtn div:after,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:after
+{
+	height:0;
+	right:-0.375em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv .mxUndoBtn div:after,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxPredBtn div:after
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxNextBtn div:before
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:before
+{
+	height:0;
+	left:-0.375em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:after
+{
+	height:1em;
+	right:-0.375em;
+	border-width:0 0.175em 0 0;
+}
+
+div.mxGoProblemsGlobalBoxDiv div.mxSolveDiv,
+div.mxGoProblemsGlobalBoxDiv div.mxNavigationDiv
+{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}

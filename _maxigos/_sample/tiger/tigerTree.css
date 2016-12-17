@@ -1,0 +1,205 @@
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv {font-family:times new roman,serif;display:table;margin:0 auto;text-align:center;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxGBoxDiv,
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCBoxDiv {display:inline-block;vertical-align:top;}
+
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxTBoxDiv,
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxVBoxDiv {width:100%;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxGobanDiv {margin:0 auto;border:1px solid #e0e0e0;padding:1px;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxGobanDiv canvas {border:1 solid #e0e0e0;color:#000;background-color:#fcff99;font-size:13px;}
+
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv
+{
+	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+	align-items:center;
+	margin:0.5em auto;
+	text-align:center;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button
+{
+	-webkit-flex:1;
+	flex:1;
+	font-size:0.75em;
+	width:10%;
+	height:2em;
+	background-color:#f0f0f0;
+	background-image:none;
+	box-shadow:none;
+	padding:0.25em;
+	margin:0 0.125em;
+	border:0;
+	vertical-align:middle;
+}
+
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button:hover {cursor:pointer;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button[disabled]:hover {cursor:default;}
+
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button div
+{
+	display:block;
+	position:relative;
+	height:1em;
+	width:0;
+	top:0;
+	color:transparent;
+	background:transparent;
+	margin:0 auto;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button div span {display:none;}
+
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button div:before,
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button div:after
+{
+	top:0;
+	position:absolute;
+	content:"";
+	border-width:0;
+	border-style:solid;
+	border-color:transparent #000;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button:hover div:before,
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button:hover div:after
+{
+	border-color:transparent #f00;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button[disabled] div:before,
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button[disabled] div:after,
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button[disabled] div:hover:before,
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button[disabled] div:hover:after
+{
+	border-color:transparent #999;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:before
+{
+	height:1em;
+	left:-0.3125em;
+	border-width:0 0 0 0.125em;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:after
+{
+	height:0;
+	right:-0.3125em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxPredBtn div:after
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxNextBtn div:before
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:before
+{
+	height:0;
+	left:-0.3125em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:after
+{
+	height:1em;
+	right:-0.3125em;
+	border-width:0 0.125em 0 0;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:before
+{
+	height:0;
+	left:-0.625em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:after
+{
+	height:0;
+	right:-0.625em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:before
+{
+	height:1em;
+	left:0.25em;
+	border-width:0 0 0 0.125em;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:after
+{
+	height:1em;
+	right:0.25em;
+	border-width:0 0.125em 0 0;
+}
+
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv button::-moz-focus-inner {padding:0;}
+
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxNavigationDiv
+{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv
+{
+	position:relative;
+	min-height:128px;
+	min-width:256px;
+	text-align:justify;
+	overflow:auto;
+	white-space:normal;
+	margin:0 auto;
+	padding:8px;
+	border:1px solid #e0e0e0;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv h1 {font-family:Arial,sans-serif;font-size:1em;text-align:left;padding-top:0;margin-top:0;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxHeaderContentDiv {color:#000;font-weight:bold;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv span.mxCommentMoveSpan {display:inline-block;line-height:1.2em;width:6em;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv span.mxCommentNoMoveSpan {display:inline-block;width:6em;text-align:center;line-height:1.2em;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv span.mxCommentFocusSpan:hover,
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv span.mxCommentNoFocusSpan:hover {cursor:pointer;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv span.mxCommentFocusSpan {background:#fcbc90;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv span.mxCommentNumberSpan {display:inline-block;width:2em;text-align:right;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv span.mxCommentCircleSpan {font-size:2em;vertical-align:-0.125em;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv div.mxCommentMainDiv {color:#000;display:inline-block;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv div.mxCommentVariationDiv {color:#d31fbe;display:inline-block;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv div.mxCommentMainTextDiv {color:#126e21;text-align:justify;display:inline-block;}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv div.mxCommentVariationTextDiv {color:#126e21;text-align:justify;display:inline-block;}
+
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxTreeDiv
+{
+	position:relative;
+	height:128px;
+	overflow:auto;
+	margin:4px auto 0 auto;
+	padding:4px;
+	border:1px solid #e0e0e0;
+}
+div.mxTigerGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxVersionDiv {text-align:center;padding:3px 2px;position:relative;}
+

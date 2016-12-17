@@ -1,0 +1,7 @@
+div.mxJdgGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxGobanDiv {margin:0;}
+div.mxJdgGlobalBoxDiv.mxDiagramGlobalBoxDiv.mxIn3d div.mxGobanDiv {padding:0 4px 4px 0;}
+div.mxJdgGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxGobanDiv canvas {color:#000;background-color:#fcba54;font-size:0.75em;}
+div.mxJdgGlobalBoxDiv.mxDiagramGlobalBoxDiv.mxIn3d div.mxInnerGobanDiv {box-shadow:1px 1px #965400,2px 2px #965400,3px 3px #965400,4px 4px #965400,8px 8px 8px rgba(0,0,0,0.3);}
+div.mxJdgGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxNotSeenDiv {text-align:left;margin:0.5em 0 0 0;}
+div.mxJdgGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxInNotSeenDiv {white-space:nowrap;display:inline-block;padding:0.1em;}
+div.mxJdgGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxInNotSeenDiv * {vertical-align:middle;}

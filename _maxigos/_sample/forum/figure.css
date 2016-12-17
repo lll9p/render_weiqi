@@ -1,0 +1,26 @@
+.mxForumGlobalBoxDiv.mxFigureGlobalBoxDiv
+{
+	display:table;
+	margin:0 auto;
+	padding:0;
+}
+.mxForumGlobalBoxDiv.mxFigureGlobalBoxDiv div.mxGobanDiv
+{
+	margin:0 auto;
+}
+.mxForumGlobalBoxDiv.mxFigureGlobalBoxDiv div.mxGobanDiv canvas
+{
+	color:#000;
+	font-size:1.125em;
+	background-image:url(gobanBk.png);
+}
+.mxForumGlobalBoxDiv.mxFigureGlobalBoxDiv div.mxNotSeenDiv {text-align:left;margin:0.5em auto 0 auto;}
+.mxForumGlobalBoxDiv.mxFigureGlobalBoxDiv div.mxInNotSeenDiv {white-space:nowrap;display:inline-block;padding:0.1em;}
+.mxForumGlobalBoxDiv.mxFigureGlobalBoxDiv div.mxInNotSeenDiv * {vertical-align:middle;}
+
+.mxForumGlobalBoxDiv.mxFigureGlobalBoxDiv div.mxVersionDiv
+{
+	font-size:0.75em;
+	color:#999;
+	text-align:center;
+}

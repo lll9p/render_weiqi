@@ -1,0 +1,129 @@
+.mxTatamiGlobalBoxDiv
+{
+	margin:0 auto;
+	padding:0;
+	display:table;
+	position:relative;
+	font-family:Arial,sans-serif;
+}
+
+.mxTatamiGlobalBoxDiv div.mxNavigationBoxDiv
+{
+	background:#eee;
+	padding:0.5em 0;
+}
+
+.mxTatamiGlobalBoxDiv div.mxGobanBoxDiv
+{
+	background-image:url(../../../_img/bk/tatami-yellow.jpg);
+	text-align:center;
+	position:relative;
+	padding:1px 8px;
+	border:2px solid rgb(220,200,150);
+}
+
+.mxTatamiGlobalBoxDiv div.mxGobanDiv
+{
+	margin:1em auto;
+	position:relative;
+}
+
+.mxTatamiGlobalBoxDiv.mxIn3d div.mxInnerGobanDiv
+{
+	box-shadow:0 0.5em 0.5em #963;
+}
+
+.mxTatamiGlobalBoxDiv.mxIn3d div.mxGobanDiv.mxUnder div.mxInnerGobanDiv
+{
+	box-shadow:none;
+}
+
+.mxTatamiGlobalBoxDiv.mxIn2d  div.mxInnerGobanDiv
+{
+	border:1px solid #dfc997;
+	box-shadow:1px 0 0.5em #dfc997;
+	box-shadow:-1px 0 0.5em #dfc997;
+	box-shadow:0 1px 0.5em #dfc997;
+	box-shadow:0 -1px 0.5em #dfc997;
+}
+
+.mxTatamiGlobalBoxDiv div.mxGobanDiv canvas
+{
+	background:#ecbe69;
+}
+
+/* buttons */
+
+.mxTatamiGlobalBoxDiv button {-webkit-appearance:none;}
+
+.mxTatamiGlobalBoxDiv button
+{
+	cursor:pointer;
+	margin:2px;
+	padding:0.2em 0.3em;
+	border:0;
+	border-radius:0;
+	box-shadow:none;
+	color:#000;
+	background:#fff;
+	height:2em;
+	font-size:1em;
+	vertical-align:middle;
+}
+
+.mxTatamiGlobalBoxDiv.mxIn3d button
+{
+	box-shadow:0 0.125em 0.125em #666;
+}
+.mxTatamiGlobalBoxDiv.mxIn2d button
+{
+	border:1px solid #ccc;
+}
+
+.mxTatamiGlobalBoxDiv button:hover {cursor:pointer;}
+.mxTatamiGlobalBoxDiv button[disabled]:hover {cursor:default;}
+
+/* Bowls */
+
+.mxTatamiGlobalBoxDiv div.mxBlackStonesDiv
+{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+.mxTatamiGlobalBoxDiv div.mxWhiteStonesDiv
+{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.mxTatamiGlobalBoxDiv .mxBowlCanvas,
+.mxTatamiGlobalBoxDiv .mxCapCanvas
+{
+	display:block;
+	margin:0 auto;
+}
+
+/* version */
+
+.mxTatamiGlobalBoxDiv div.mxVersionDiv
+{
+	font-size:0.75em;
+	color:#999;
+	text-align:center;
+}
+
+@media (max-width:360px)
+{
+	.mxTatamiGlobalBoxDiv
+	{
+		display:block;
+	}
+	.mxTatamiGlobalBoxDiv div.mxGobanBoxDiv
+	{
+		padding:1px 0;
+	}
+}
+

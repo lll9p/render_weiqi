@@ -1,0 +1,27 @@
+html {overflow-y:scroll;}
+body {margin:0;padding:0;}
+div.menu {text-align:center;padding:0.5em 0.25em;line-height:1.6em;}
+div.menu span {display:inline-block;margin:0 0.25em;}
+div.menu a {color:#000;}
+div.menu a:hover {color:#f00;}
+img.flag {border:1px solid #ccc;margin:0 0.25em;vertical-align:-2px;}
+form.fileSelector {text-align:center;padding:1em 0.25em 0 0.25em;}
+form.fileSelector select {vertical-align:bottom;}
+div.sampleContainer {text-align:center;line-height:1.8em;font-size:16px;}
+ul.sampleList {text-align:center;position:relative;margin:0;padding:0.5em;}
+ul.sampleList li {display:inline-block;margin:0;padding:0;}
+ul.sampleList li a {color:#000;}
+ul.sampleList li.currentSample a {color:#00f;}
+ul.sampleList li a:hover,
+ul.sampleList li.currentSample a:hover {color:#f00;}
+@media (max-width:19em)
+{
+	body
+	{
+		-webkit-hyphens:auto;
+		-moz-hyphens:auto;
+		-ms-hyphens:auto;
+		hyphens:auto;
+	}
+}
+

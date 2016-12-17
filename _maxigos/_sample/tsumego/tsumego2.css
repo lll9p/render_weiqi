@@ -1,0 +1,98 @@
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxErrorDiv,
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxErrorDiv {text-align:center;color:#fff;padding:0.25em;background-color:#222;border-radius:1em;}
+
+/* problem */
+
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv {font-size:16px;margin:0.25em auto 0 auto;}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxGobanDiv {margin:0 auto;padding:0 4px 4px 0;}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxInnerGobanDiv {box-shadow:1px 1px #965400,2px 2px #965400,3px 3px #965400,4px 4px #965400,8px 0.5em 1em rgba(0,0,0,0.5);}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxGobanDiv canvas {font-size:14px;color:#000;background-color:#fcba54;}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv {margin:6px;padding:0 2px;text-align:center;white-space:normal;}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button
+{
+	white-space:nowrap;
+	color:#272727;
+	border-radius:5px;
+	border:1px solid #c7c3be;
+	background-color:#f1f1f1;
+	background:linear-gradient(to bottom,#fcfcfc,#f1f1f1,#e8e8e8);
+	font-weight:bold;
+	font-size:12px;
+	margin:1px;
+}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button span
+{
+	display:block;
+	height:1.5em;
+	line-height:1.5em;
+}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button:hover
+{
+	border:1px solid #272727;
+	background-color:#f1f1f1;
+	background:linear-gradient(to bottom,#e8e8e8,#f1f1f1,#fcfcfc);
+}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button[disabled] span
+{
+	opacity:0.3;
+}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button[disabled]:hover
+{
+	border:1px solid #c7c3be;
+	background-color:#f1f1f1;
+	background:linear-gradient(to bottom,#fcfcfc,#f1f1f1,#e8e8e8);
+}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxCommentDiv {margin:0 auto;padding:0.5em 0 0 0;text-align:center;}
+.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;padding:0 0.25em;min-height:1.3em;}
+
+/* problem of the day */
+
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv {font-size:14px;margin:0.5em auto 0 auto;padding:0 3em;}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxCenterBoxDiv {background-color:#ececec;padding:0.5em 2em 0.25em 2em;border-radius:1em;}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxGobanDiv {margin:0 auto;padding:0 4px 4px 0;}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxInnerGobanDiv {box-shadow:1px 1px #965400,2px 2px #965400,8px 0.5em 1em rgba(0,0,0,0.5);}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxGobanDiv canvas {font-size:8px;color:#000;background-color:#fcba54;}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv {margin:6px;padding:0 2px;text-align:center;white-space:normal;}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button
+{
+	white-space:nowrap;
+	color:#272727;
+	border-radius:5px;
+	border:1px solid #c7c3be;
+	background-color:#f1f1f1;
+	background:linear-gradient(to bottom,#fcfcfc,#f1f1f1,#e8e8e8);
+	font-weight:bold;
+	font-size:10px;
+	margin:1px;
+}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button span
+{
+	display:block;
+	height:1.5em;
+	line-height:1.5em;
+}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button:hover
+{
+	border:1px solid #272727;
+	background-color:#f1f1f1;
+	background:linear-gradient(to bottom,#e8e8e8,#f1f1f1,#fcfcfc);
+}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button[disabled] span
+{
+	opacity:0.3;
+}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button[disabled]:hover
+{
+	border:1px solid #c7c3be;
+	background-color:#f1f1f1;
+	background:linear-gradient(to bottom,#fcfcfc,#f1f1f1,#e8e8e8);
+}
+.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxCommentDiv {margin:0 auto;padding:0.25em;text-align:center;color:#fff;}
+
+@media (max-width:399px)
+{
+	.mxTsumego2GlobalBoxDiv.mxCGlobalBoxDiv div.mxGobanDiv canvas {font-size:10px;}
+	.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv {padding:0 1.5em;}
+	.mxTsumego2GlobalBoxDiv.mxPGlobalBoxDiv div.mxGobanDiv canvas {font-size:7px;}
+}
+

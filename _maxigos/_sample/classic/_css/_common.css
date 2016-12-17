@@ -1,0 +1,14 @@
+div.mxClassicGlobalBoxDiv {line-height:1.4em;}
+div.mxClassicGlobalBoxDiv div.mxGobanDiv {margin:0 auto 0.5em auto;}
+div.mxClassicGlobalBoxDiv div.mxGobanDiv canvas
+{
+	background:#fcba54;
+	font-size:0.875em;
+}
+div.mxClassicGlobalBoxDiv.mxIn3d div.mxGobanDiv {padding:0 4px 4px 0;}
+div.mxClassicGlobalBoxDiv.mxIn3d div.mxInnerGobanDiv {box-shadow:1px 1px #965400,2px 2px #965400,3px 3px #965400,4px 4px #965400,8px 8px 16px rgba(0,0,0,0.5);}
+div.mxClassicGlobalBoxDiv button:hover {cursor:pointer;}
+div.mxClassicGlobalBoxDiv button[disabled]:hover {cursor:default;}
+div.mxClassicGlobalBoxDiv div.mxWaitDiv {border:0.125em solid #f00;color:#f00;background:#fff;font-size:1.5em;}
+div.mxClassicGlobalBoxDiv div.mxVersionDiv {text-align:center;}
+

@@ -1,0 +1,16 @@
+div.mxNeoClassicGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv {margin:0 auto 0.5em auto;text-align:center;}
+div.mxNeoClassicGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;}
+div.mxNeoClassicGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv {text-align:center;margin-top:0.75em;}
+div.mxNeoClassicGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button
+{
+	font-family:Arial,sans-serif;
+	font-size:0.875em;
+	height:auto;
+	border:1px solid #000;
+	margin:1px;
+	padding:0.125em 0.375em;
+	color:#000;
+	background:transparent;
+	box-shadow:none;
+}
+div.mxNeoClassicGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button[disabled] {border:1px solid #999;color:#999;}

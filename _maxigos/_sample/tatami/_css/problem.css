@@ -1,0 +1,14 @@
+.mxTatamiGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveBoxDiv,
+.mxTatamiGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentBoxDiv
+{
+	background:#eee;
+	padding:0.5em;
+}
+.mxTatamiGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv
+{
+	margin:0 auto;
+	text-align:center;
+	line-height:2em;
+}
+.mxTatamiGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv {text-align:center;min-height:1.8em;margin:0 auto;}
+.mxTatamiGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;padding:0.25em;}

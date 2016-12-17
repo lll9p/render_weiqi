@@ -1,0 +1,69 @@
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv
+{
+	text-align:center;
+	margin:0 auto;
+	white-space:nowrap;
+}
+
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv div.mxLessonDiv
+{
+	position:relative;
+	min-height:6em;
+	margin:1em auto 0 auto;
+	padding-bottom:120px;
+}
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv img.mxAssistantImg
+{
+	position:absolute;
+	display:block;
+	left:50%;
+	bottom:0;
+	margin-left:-80px;
+}
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv div.mxBalloonDiv
+{
+	position:absolute;
+	bottom:120px;
+	left:10%;
+	right:10%;
+	border-radius:1.5em;
+	font-family:fantasy;
+	background-color:#fff;
+	text-align:center;
+}
+
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv div.mxBalloonDiv {padding:8px 8px 8px 12px;box-shadow:4px 4px 12px rgba(0,0,0,0.5);}
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv div.mxBalloonDiv {padding:8px;border:1px solid #999;}
+
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv div.mxBalloonContentDiv
+{
+	display:inline-block;
+	text-align:justify;
+	white-space:normal;
+	position:relative;
+}
+
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv .mxTE div.mxBalloonContentDiv,
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv .mxBM div.mxBalloonContentDiv
+{
+	margin-left:2.5em;
+	min-height:2.5em;
+}
+
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv .mxTE .mxBalloonDiv:before,
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv .mxBM .mxBalloonDiv:before
+{
+	background-repeat:no-repeat;
+	background-position:left center;
+	background-size:2.5em 2.5em;
+	display:block;
+	height:2.5em;
+	width:2.5em;
+	content:" ";
+	margin-right:0.5em;
+	position:absolute;
+	left:0.5em;
+	margin-bottom:1em;
+}
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv .mxTE .mxBalloonDiv:before {background-image:url(../../../_img/icone/mxTE.png);}
+#flexicontent .mxRfgGlobalBoxDiv.mxLessonGlobalBoxDiv .mxBM .mxBalloonDiv:before {background-image:url(../../../_img/icone/mxBM.png);}

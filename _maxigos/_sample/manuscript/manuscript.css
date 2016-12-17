@@ -1,0 +1,337 @@
+@font-face
+{
+	font-family:maxiGos;
+	src:url(../../../../_font/ChN1_Regular.ttf);
+}
+
+.mxManuscriptGlobalBoxDiv
+{
+	font-size:16px;
+	margin:0 auto;
+	text-align:center;
+	display:table;
+}
+.mxManuscriptGlobalBoxDiv div.mxTopBoxDiv button
+{
+	background-color:#fff;
+	border:0;
+	margin:2px;
+	color:#696;
+}
+.mxManuscriptGlobalBoxDiv div.mxErrorDiv {text-align:center;padding:25px;}
+
+.mxManuscriptGlobalBoxDiv div.mxGobanBoxDiv
+{
+	background-color:#fff;
+	padding:1em 1em 0.5em 1em;
+	position:relative;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxGobanDiv
+{
+	position:relative;
+	margin:0 auto;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxGobanDiv canvas
+{
+	color:#696;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxFileDiv,
+.mxManuscriptGlobalBoxDiv div.mxInfoDiv,
+.mxManuscriptGlobalBoxDiv div.mxSgfDiv,
+.mxManuscriptGlobalBoxDiv div.mxCutDiv,
+.mxManuscriptGlobalBoxDiv div.mxPassDiv,
+.mxManuscriptGlobalBoxDiv div.mxImageDiv
+{
+	padding-bottom:1em;
+	display:inline-block;
+}
+
+
+.mxManuscriptGlobalBoxDiv div.mxHeaderDiv
+{
+	text-align:justify;
+	white-space:normal;
+	padding:0.5em;
+	margin-bottom:1em;
+	border:1px solid #696;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxNewDiv,
+.mxManuscriptGlobalBoxDiv div.mxOpenDiv,
+.mxManuscriptGlobalBoxDiv div.mxSaveDiv,
+.mxManuscriptGlobalBoxDiv div.mxSendDiv,
+.mxManuscriptGlobalBoxDiv div.mxShowSgfDiv,
+.mxManuscriptGlobalBoxDiv div.mxShowInfoDiv
+{
+	overflow:auto;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxNewDiv,
+.mxManuscriptGlobalBoxDiv div.mxOpenDiv,
+.mxManuscriptGlobalBoxDiv div.mxSaveDiv,
+.mxManuscriptGlobalBoxDiv div.mxSendDiv,
+.mxManuscriptGlobalBoxDiv div.mxShowSgfDiv
+{
+	cursor:default;
+	white-space:normal;
+	border:1px solid #696;
+	color:#696;
+	background:#fff;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxNewDiv input[type=text],
+.mxManuscriptGlobalBoxDiv div.mxOpenDiv input[type=text],
+.mxManuscriptGlobalBoxDiv div.mxSaveDiv input[type=text],
+.mxManuscriptGlobalBoxDiv div.mxSendDiv input[type=text],
+.mxManuscriptGlobalBoxDiv div.mxOpenDiv button,
+.mxManuscriptGlobalBoxDiv div.mxOKDiv button
+{
+	color:#696;
+	border:1px solid #696;
+	font-size:0.9em;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxOpenDiv button,
+.mxManuscriptGlobalBoxDiv div.mxOKDiv button
+{
+	background:transparent;
+	margin-left:0.5em;
+	margin-right:0.5em;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxNewDiv div.mxP,
+.mxManuscriptGlobalBoxDiv div.mxOpenDiv div.mxP,
+.mxManuscriptGlobalBoxDiv div.mxSaveDiv div.mxP,
+.mxManuscriptGlobalBoxDiv div.mxSendDiv div.mxP
+{
+	margin:2em 0;
+	line-height:2em;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxHeaderDiv
+{
+	font-family:maxiGos, cursive;
+	color:#00f;
+	min-height:6em;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxHeaderDiv h1
+{
+	margin:0 2em;
+	text-align:center;
+	font-weight:normal;
+	font-size:1em;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxHeaderDiv span.mxHeaderSpan
+{
+	font-family:Arial;
+	color:#696;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxVersionDiv
+{
+	font-family:Arial;
+	font-size:0.75em;
+	color:#696;
+	text-align:center;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxShowSgfDiv div.mxP
+{
+	text-align:left;
+	font-family:monospace;
+	display:table;
+	margin:0.5em auto;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxOKDiv
+{
+	margin:1em;
+	text-align:center;
+}
+/* buttons */
+
+.mxManuscriptGlobalBoxDiv button span
+{
+	display:block;
+}
+.mxManuscriptGlobalBoxDiv button span
+{
+	height:1.5em;
+	line-height:1.5em;
+}
+
+div.mxManuscriptGlobalBoxDiv div.mxNotSeenDiv {text-align:left;margin:0.5em auto 0 auto;color:#00f;padding-bottom:0.5em;}
+div.mxManuscriptGlobalBoxDiv div.mxInNotSeenDiv {white-space:nowrap;display:inline-block;padding:0.1em;font-family:maxiGos, cursive;}
+div.mxManuscriptGlobalBoxDiv div.mxInNotSeenDiv * {vertical-align:middle;}
+div.mxManuscriptGlobalBoxDiv div.mxNotSeenDiv span {font-family:maxiGos, cursive;}
+div.mxManuscriptGlobalBoxDiv div.mxNotSeenDiv {min-height:2em}
+
+/* info */
+
+.mxManuscriptGlobalBoxDiv div.mxShowInfoDiv
+{
+	text-align:left;
+	background-color:#fff;
+	padding:0;
+	border:1px solid #696;
+	white-space:normal;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxShowInfoDiv div.mxShowContentDiv
+{
+	line-height:1.8em;
+	margin-top:0;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxShowInfoDiv label
+{
+	display:inline-block;
+	color:#696;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxShowInfoDiv input[type=text],
+.mxManuscriptGlobalBoxDiv div.mxShowInfoDiv textarea,
+.mxManuscriptGlobalBoxDiv div.mxShowInfoDiv select
+{
+	font-size:0.9em;
+	color:#696;
+	border:1px solid #696;
+	background:transparent;
+}
+
+.mxManuscriptGlobalBoxDiv label.mxEV,
+.mxManuscriptGlobalBoxDiv label.mxRO,
+.mxManuscriptGlobalBoxDiv label.mxDT,
+.mxManuscriptGlobalBoxDiv label.mxPC,
+.mxManuscriptGlobalBoxDiv label.mxPB,
+.mxManuscriptGlobalBoxDiv label.mxPW,
+.mxManuscriptGlobalBoxDiv label.mxKM,
+.mxManuscriptGlobalBoxDiv label.mxBR,
+.mxManuscriptGlobalBoxDiv label.mxWR,
+.mxManuscriptGlobalBoxDiv label.mxHA,
+.mxManuscriptGlobalBoxDiv label.mxWN
+{
+	min-width:7em;
+}
+
+.mxManuscriptGlobalBoxDiv label.mxSC
+{
+	text-align:center;
+	width:4%;
+}
+
+.mxManuscriptGlobalBoxDiv label.mxAN,
+.mxManuscriptGlobalBoxDiv label.mxCP,
+.mxManuscriptGlobalBoxDiv label.mxSO,
+.mxManuscriptGlobalBoxDiv label.mxUS,
+.mxManuscriptGlobalBoxDiv label.mxRU,
+.mxManuscriptGlobalBoxDiv label.mxTM,
+.mxManuscriptGlobalBoxDiv label.mxOT,
+.mxManuscriptGlobalBoxDiv label.mxON,
+.mxManuscriptGlobalBoxDiv label.mxBT,
+.mxManuscriptGlobalBoxDiv label.mxWT,
+.mxManuscriptGlobalBoxDiv label.mxGN
+{
+	width:10em;
+}
+
+.mxManuscriptGlobalBoxDiv label.mxGC
+{
+	width:98%;
+}
+
+.mxManuscriptGlobalBoxDiv input.mxEV,
+.mxManuscriptGlobalBoxDiv input.mxRO,
+.mxManuscriptGlobalBoxDiv input.mxDT,
+.mxManuscriptGlobalBoxDiv input.mxPC,
+.mxManuscriptGlobalBoxDiv input.mxPB,
+.mxManuscriptGlobalBoxDiv input.mxPW,
+.mxManuscriptGlobalBoxDiv input.mxBR,
+.mxManuscriptGlobalBoxDiv input.mxWR,
+.mxManuscriptGlobalBoxDiv input.mxKM,
+.mxManuscriptGlobalBoxDiv input.mxHA
+{
+	width:76%;
+}
+
+.mxManuscriptGlobalBoxDiv select.mxWN,
+.mxManuscriptGlobalBoxDiv select.mxHW
+{
+	width:28%;
+	min-width:10em;
+	margin-right:2%;
+}
+
+.mxManuscriptGlobalBoxDiv input.mxSC
+{
+	width:10%;
+	margin-left:2%;
+}
+
+.mxManuscriptGlobalBoxDiv input.mxAN,
+.mxManuscriptGlobalBoxDiv input.mxCP,
+.mxManuscriptGlobalBoxDiv input.mxSO,
+.mxManuscriptGlobalBoxDiv input.mxUS,
+.mxManuscriptGlobalBoxDiv input.mxRU,
+.mxManuscriptGlobalBoxDiv input.mxTM,
+.mxManuscriptGlobalBoxDiv input.mxOT,
+.mxManuscriptGlobalBoxDiv input.mxON,
+.mxManuscriptGlobalBoxDiv input.mxBT,
+.mxManuscriptGlobalBoxDiv input.mxWT,
+.mxManuscriptGlobalBoxDiv input.mxGN
+{
+	width:65%;
+}
+
+.mxManuscriptGlobalBoxDiv textarea.mxGC
+{
+	height:6em;
+	width:98%;
+	resize:none;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxInfoPageDiv
+{
+	width:96%;
+	margin:0 auto;
+	padding-top:0.5em;
+}
+
+.mxManuscriptGlobalBoxDiv div.mxInfoPageMenuDiv
+{
+	border-bottom:1px solid #696;
+	text-align:left;
+}
+
+.mxManuscriptGlobalBoxDiv .mxInfoPageBtn,
+.mxManuscriptGlobalBoxDiv .mxInfoSelectedPageBtn
+{
+	min-width:25%;
+	border:1px solid #696;
+	border-bottom:0;
+	margin-bottom:0;
+	padding-bottom:0;
+	vertical-align:bottom;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	font-size:1em;
+}
+
+.mxManuscriptGlobalBoxDiv .mxInfoPageBtn
+{
+	background-color:#fff;
+	color:#696;
+}
+
+.mxManuscriptGlobalBoxDiv .mxInfoSelectedPageBtn
+{
+	background-color:#696;
+	color:#fff;
+}
+
+.mxManuscriptGlobalBoxDiv .mxBadInput {color:red;}

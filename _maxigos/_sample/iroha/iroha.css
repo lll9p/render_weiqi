@@ -1,0 +1,253 @@
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv
+{
+	font-size:16px;
+	margin:0 auto;
+	padding:0.5em 0;
+	text-align:center;
+}
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxErrorDiv {text-align:center;padding:25px;}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv .mxFBoxDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv .mxGBoxDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv .mxNBoxDiv
+{
+	padding-bottom:0.5em;
+	line-height:2em;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv .mxBBoxDiv
+{
+	padding-bottom:0;
+	line-height:2em;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxGobanDiv
+{
+	position:relative;
+	margin:0 auto;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxGobanDiv canvas
+{
+	background-image:url(paper.jpg);
+	background-size:cover;
+	box-shadow: 0 0.1em 0.1em #999;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxPassDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxOptionDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxImageDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxSgfDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxCutDiv
+{
+	text-align:center;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNewDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxOpenDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxSaveDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxSendDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxShowSgfDiv,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxShowOptionDiv
+{
+	overflow:auto;
+	background-image:url(paper.jpg);
+	background-size:cover;
+	padding:0.5em;
+	box-shadow: 0em 0.1em 0.1em #963;
+	cursor:default;
+	white-space:normal;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNewDiv div.mxP,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxOpenDiv div.mxP,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxSaveDiv div.mxP,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxSendDiv div.mxP
+{
+	margin:2em 0;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxShowSgfDiv div.mxP
+{
+	text-align:left;
+	font-family:monospace;
+	margin:0.5em 0;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxShowOptionDiv div.mxP
+{
+	text-align:left;
+	margin:0.5em;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxShowOptionDiv div.mxP label
+{
+	vertical-align:middle;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxShowOptionDiv div.mxP input[type=checkbox]
+{
+	vertical-align:middle;
+}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxOKDiv
+{
+	margin:1em;
+}
+/* buttons */
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv button
+{
+	font-size:0.9em;
+	margin:0 2px;
+	border:0;
+	background:#ece9e3;
+	box-shadow: 0em 0.1em 0.1em #999;
+}
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv .mxFBoxDiv button>div,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv .mxBBoxDiv button>div,
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv .mxOKDiv button>span {line-height:1.5em;}
+
+.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxOpenDiv div.mxP label
+{
+	display:block;
+	margin-bottom:1em;
+}
+
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv
+{
+	margin:0 auto;
+	padding:0.25em 0;
+	text-align:center;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv button
+{
+	width:3em;
+	height:1.75em;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv button:hover {cursor:pointer;}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv button[disabled]:hover {cursor:default;}
+
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv button div
+{
+	display:block;
+	position:relative;
+	top:0;
+	height:1em;
+	width:0;
+	margin:0 auto;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv button div span {display:none;}
+
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv button div:before,
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv button div:after
+{
+	top:0;
+	position:absolute;
+	content:"";
+	border-width:0;
+	border-style:solid;
+	border-color:transparent #000;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv button[disabled] div:before,
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv button[disabled] div:after
+{
+	border-color:transparent rgba(0,0,0,0.3);
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:before
+{
+	height:1em;
+	left:-0.3125em;
+	border-width:0 0 0 0.125em;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:after
+{
+	height:0;
+	right:-0.3125em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxPredBtn div:after
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxNextBtn div:before
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:before
+{
+	height:0;
+	left:-0.3125em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:after
+{
+	height:1em;
+	right:-0.3125em;
+	border-width:0 0.125em 0 0;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:before
+{
+	height:0;
+	left:-0.625em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:after
+{
+	height:0;
+	right:-0.625em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:before
+{
+	height:1em;
+	left:0.25em;
+	border-width:0 0 0 0.125em;
+}
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:after
+{
+	height:1em;
+	right:0.25em;
+	border-width:0 0.125em 0 0;
+}
+
+div.mxIrohaGlobalBoxDiv.mxGameGlobalBoxDiv div.mxNavigationDiv
+{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+

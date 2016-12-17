@@ -1,0 +1,18 @@
+.mxGoInBW2GlobalBoxDiv.mxGameGlobalBoxDiv
+{
+	display:table;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+}
+.mxGoInBW2GlobalBoxDiv.mxGameGlobalBoxDiv div.mxGBoxDiv {position:relative;}
+.mxGoInBW2GlobalBoxDiv.mxGameGlobalBoxDiv div.mxGobanDiv {margin:0 auto;padding:0;font-size:1.2em;}
+.mxGoInBW2GlobalBoxDiv.mxGameGlobalBoxDiv div.mxGobanDiv canvas {color:#000;background-color:#aaa;}
+.mxGoInBW2GlobalBoxDiv.mxGameGlobalBoxDiv div.mxHeaderDiv {margin:0 auto;text-align:left;padding:0 0 1em 0;}
+.mxGoInBW2GlobalBoxDiv.mxGameGlobalBoxDiv div.mxHeaderDiv h1 {font-size:1em;}
+.mxGoInBW2GlobalBoxDiv.mxGameGlobalBoxDiv div.mxVersionDiv
+{
+	font-size:0.75em;
+	color:rgba(0,0,0,0.5);
+	text-align:center;
+}

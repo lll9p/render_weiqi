@@ -1,0 +1,30 @@
+div.mxJdgGlobalBoxDiv.mxPotdGlobalBoxDiv div.mxGobanDiv {margin:0 auto;}
+div.mxJdgGlobalBoxDiv.mxPotdGlobalBoxDiv.mxIn3d div.mxGobanDiv {padding:0 4px 4px 0;}
+div.mxJdgGlobalBoxDiv.mxPotdGlobalBoxDiv div.mxGobanDiv canvas
+{
+	color:#000;
+	background-color:#fcba54;
+	font-size:0.9375em;
+}
+div.mxJdgGlobalBoxDiv.mxPotdGlobalBoxDiv.mxIn3d div.mxInnerGobanDiv
+{
+	box-shadow:1px 1px #965400,2px 2px #965400,3px 3px #965400,4px 4px #965400,
+			   8px 8px 8px rgba(0,0,0,0.3);
+}
+div.mxJdgGlobalBoxDiv.mxPotdGlobalBoxDiv div.mxCommentDiv
+{
+	/* can display 2 lines of comment with goban remaining at the same place */
+	min-height:3.5em;
+	line-height:3.5em;
+	text-align:center;
+	margin:0 auto;
+}
+div.mxJdgGlobalBoxDiv.mxPotdGlobalBoxDiv div.mxCommentContentDiv
+{
+	display:inline-block;
+	line-height:normal;
+	text-align:justify;
+	padding:0.125em;
+}
+div.mxJdgGlobalBoxDiv.mxPotdGlobalBoxDiv div.mxSolveDiv {padding-top:0.5em;text-align:center;margin:0 auto;}
+

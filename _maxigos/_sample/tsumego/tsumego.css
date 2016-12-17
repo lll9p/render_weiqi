@@ -1,0 +1,50 @@
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxErrorDiv,
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxErrorDiv {text-align:center;color:#fff;padding:0.25em;background-color:#222;border-radius:1em;}
+
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv {border:1px solid #900;background-color:#b0c791;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxCenterBoxDiv {margin:6px 24px;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv h1.mxTitleH1 {font-size:12px;text-align:center;background:#900;color:#fff;font-weight:bold;padding:0.25em;margin:0;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxGobanDiv {margin:0 auto;padding:0 4px 4px 0;font-size:1em;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxInnerGobanDiv {box-shadow:1px 1px #965400,2px 2px #965400,3px 3px #965400,4px 4px #965400,8px 0.5em 1em rgba(0,0,0,0.5);}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxGobanDiv canvas {font-size:12px;color:#000;background-color:#fcba54;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv {margin:6px;padding:0 2px;text-align:center;white-space:normal;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button
+{
+	white-space:nowrap;
+	font-size:1em;
+	margin:0.25em;
+	vertical-align:middle;
+	border:1px solid #900;
+	background-color:#c5dba4;
+	color:#900;
+	font-weight:bold;
+}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button span
+{
+	display:block;
+	height:1.5em;
+	line-height:1.5em;
+}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button:hover {cursor:pointer;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button[disabled] {border-color:#7f7f7f;color:#7f7f7f;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxSolveDiv button[disabled]:hover {cursor:default;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxCommentDiv {margin:0 auto;padding:0 2px;text-align:center;min-height:3em;}
+.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;}
+
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxGobanDiv {margin:0 auto;padding:0 4px 4px 0;font-size:1em;}
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxInnerGobanDiv {box-shadow:1px 1px #965400,2px 2px #965400,3px 3px #965400,4px 4px #965400,8px 0.5em 1em rgba(0,0,0,0.5);}
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxGobanDiv canvas {font-size:7px;color:#000;background-color:#fcba54;}
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv {margin:6px;padding:0 2px;text-align:center;white-space:normal;}
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button {white-space:nowrap;font-size:1em;margin:0.25em;vertical-align:middle;border:1px solid #900;background-color:#c5dba4;color:#900;font-weight:bold;}
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button:hover {cursor:pointer;}
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button[disabled] {border-color:#7f7f7f;color:#7f7f7f;}
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button[disabled]:hover {cursor:default;}
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxCommentDiv {margin:0 auto;padding:0 2px 6px 2px;text-align:center;}
+.mxTsumegoGlobalBoxDiv.mxPGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;padding:0 0.25em;min-height:1.3em;}
+
+@media (max-width:359px)
+{
+	.mxTsumegoGlobalBoxDiv.mxCGlobalBoxDiv div.mxGobanDiv canvas {font-size:10px;}
+}
+
+

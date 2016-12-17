@@ -1,0 +1,103 @@
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv
+{
+	display:table;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGBoxDiv {background:#f5f5f5;padding:0.5em;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGobanDiv {margin:0 auto;font-size:1em;position:relative;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGobanDiv canvas
+{
+	color:#000;
+	background-color:#fff;
+}
+
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxBBoxDiv {margin-top:0.5em;text-align:center;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxBBoxDiv button,
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxOKDiv button {font-size:1em;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxBBoxDiv button span,
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxOKDiv button span {display:block;height:1.5em;line-height:1.5em;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxBBoxDiv button,
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxOKDiv button
+{
+	margin:0.125em;
+	vertical-align:middle;
+	border:1px solid #bbb;
+	background:#fff;
+	color:#000;
+}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxBBoxDiv button:hover,
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxOKDiv button:hover {cursor:pointer;background:#e6e6e6;}
+
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxOptionDiv,
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxPassDiv,
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxCutDiv
+{
+	display:inline-block;
+	text-align:center;
+	padding:0 2px;
+}
+
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGotoDiv {height:0.75em;background:#e6e6e6;margin-top:1em;outline:1px solid #999;cursor:pointer;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGotoDiv canvas {height:0.75em;width:0.75em;background:#000;cursor:pointer;}
+
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv {margin-top:0.5em;text-align:left;height:1.75em;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv span {display:inline-block;color:#000;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv span {font-size:1em;padding:0.25em 0.25em 0 0;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv input
+{
+	font-size:1em;
+	text-align:center;
+	font-weight:bold;
+	margin:0 2px;
+	color:#000;
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:2px 5px;
+	width:auto; /* ie */
+	overflow:visible; /* ie */
+}
+
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv input[type=button]:hover {background:#e6e6e6;text-decoration:none;}
+
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxCommentDiv
+{
+	margin:0.5em auto 0 auto;
+	padding:0.5em;
+	text-align:justify;
+	height:8em;
+	overflow:auto;
+	white-space:normal;
+	background:#e6e6e6;
+}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxCommentDiv h1 {font-size:1em;text-align:left;margin:0 0 0.5em 0;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxCommentDiv div.mxP {margin-bottom:0.5em;}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxHeaderDiv {margin-bottom:1em;}
+
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxShowOptionDiv
+{
+	overflow:auto;
+	text-align:left;
+	padding:1em;
+	line-height:1.5em;
+	background:#fff;
+}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxOKDiv
+{
+	text-align:center;
+}
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxOKDiv button
+{
+	margin:0 0.5em;
+}
+
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv .mxOnVariationPassBtn {background:#e6e6e6;}
+
+.mxGoInBWGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVersionDiv
+{
+	font-size:0.75em;
+	color:#ccc;
+	text-align:center;
+}

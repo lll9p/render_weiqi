@@ -1,0 +1,169 @@
+.mxCardGlobalBoxDiv
+{
+	font-size:16px;
+	text-align:center;
+	white-space:nowrap;
+	display:inline-block;
+	padding:1em 2em;
+}
+
+.mxCardGlobalBoxDiv div.mxErrorDiv {text-align:center;padding:25px;}
+
+.mxCardGlobalBoxDiv div.mxGobanBoxDiv
+{
+}
+
+.mxCardGlobalBoxDiv div.mxGobanDiv
+{
+	margin:0 auto;
+	position:relative;
+}
+
+.mxCardGlobalBoxDiv div.mxInnerGobanDiv
+{
+	box-shadow:8px 8px 16px rgba(0,0,0,0.5);
+}
+
+.mxCardGlobalBoxDiv div.mxGobanDiv canvas
+{
+	color:#000;
+	box-shadow:8px 8px 16px rgba(0,0,0,0.5);
+	background-color:#fcba54;
+}
+
+.mxCardGlobalBoxDiv div.mxNavigationBoxDiv
+{
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:-moz-none;
+	-ms-user-select:none;
+	user-select:none;
+}
+
+.mxCardGlobalBoxDiv div.mxNavigationDiv
+{
+	text-align:center;
+	display:inline-block;
+	vertical-align:top;
+	padding:0 0.25em;
+	margin-top:1em;
+}
+
+.mxCardGlobalBoxDiv div.mxVersionDiv
+{
+	color:#000;
+	text-align:center;
+	vertical-align:top;
+}
+
+.mxCardGlobalBoxDiv .mxSpeedDiv div {cursor:pointer;display:inline-block;vertical-align:middle;}
+.mxCardGlobalBoxDiv .mxSpeedDiv .mxSpeedPlusBtn,
+.mxCardGlobalBoxDiv .mxSpeedDiv .mxSpeedMinusBtn
+{
+	font-size:1em;
+	font-weight:bold;
+	border:0;
+	margin:0;
+	padding:0;
+	width:1em;
+	vertical-align:middle;
+	color:#000;
+	background-color:transparent;
+}
+.mxCardGlobalBoxDiv .mxSpeedBarDiv {border:1px solid #000;height:0.5em;width:20em;margin:1em 0.25em;}
+.mxCardGlobalBoxDiv .mxSpeedDiv .mxSpeedBarDiv canvas {outline:1px solid #000;background:#480;height:1em;width:0.5em;top:-0.25em}
+
+.mxCardGlobalBoxDiv .mxShowSgfDiv
+{
+	overflow:auto;
+	color:#000;
+	white-space:normal;
+	text-align:left;
+	padding:0.5em;
+	margin:0 auto;
+	background-color:#fff;
+}
+
+.mxCardGlobalBoxDiv div.mxShowSgfDiv div.mxP
+{
+	margin:1em;
+	font-family:monospace;
+	font-size:0.9em;
+}
+
+.mxCardGlobalBoxDiv .mxShowSgfDiv .mxOKDiv
+{
+	text-align:center;
+	margin-bottom:0.5em;
+}
+
+/* buttons */
+
+.mxCardGlobalBoxDiv button:hover {cursor:pointer;}
+.mxCardGlobalBoxDiv button[disabled]:hover {cursor:default;}
+
+.mxCardGlobalBoxDiv div.mxNavigationDiv button
+{
+	font-size:1.5em;
+	height:1.8em;
+	line-height:1.8em;
+	margin:0 2px;
+	border:0;
+	background-color:transparent;
+	vertical-align:middle;
+	text-align:center;
+	color:#000;
+}
+
+.mxCardGlobalBoxDiv div.mxNavigationDiv button[disabled] {opacity:0.3;}
+
+.mxCardGlobalBoxDiv div.mxSgfDiv button
+{
+	font-size:1em;
+	border:0;
+	padding:0;
+	margin:0;
+	background-color:transparent;
+	color:#000;
+}
+
+.mxCardGlobalBoxDiv div.mxSgfDiv button:hover
+{
+	text-decoration:underline;
+}
+
+@media (max-width:629px)
+{
+	.mxCardGlobalBoxDiv {padding:1em 0;}
+	.mxCardGlobalBoxDiv div.mxGobanDiv canvas {font-size:15px;}
+	.mxCardGlobalBoxDiv div.mxSpeedBarDiv {width:280px;}
+	.mxCardGlobalBoxDiv div.mxNavigationDiv button {font-size:24px;margin:0;}
+	.mxCardGlobalBoxDiv div.mxBottomBoxDiv button {max-width:320px;}
+}
+
+@media (max-width:479px)
+{
+	.mxCardGlobalBoxDiv div.mxGobanDiv canvas {font-size:11px;}
+	.mxCardGlobalBoxDiv div.mxSpeedBarDiv {width:220px;}
+	.mxCardGlobalBoxDiv div.mxNavigationDiv button {font-size:20px;}
+	.mxCardGlobalBoxDiv div.mxBottomBoxDiv button {max-width:260px;}
+}
+
+@media (max-width:359px)
+{
+	.mxCardGlobalBoxDiv div.mxGobanDiv canvas {font-size:10px;}
+	.mxCardGlobalBoxDiv div.mxSpeedBarDiv {width:200px;}
+	.mxCardGlobalBoxDiv div.mxNavigationDiv button {font-size:12px;}
+	.mxCardGlobalBoxDiv div.mxBottomBoxDiv button {max-width:240px;}
+}
+
+@media (max-width:319px)
+{
+	.mxCardGlobalBoxDiv div.mxGobanDiv canvas {font-size:9px;}
+	.mxCardGlobalBoxDiv div.mxSpeedBarDiv {width:180px;}
+	.mxCardGlobalBoxDiv div.mxNavigationDiv button {font-size:11px;}
+	.mxCardGlobalBoxDiv div.mxBottomBoxDiv button {max-width:220px;}
+}
+
+

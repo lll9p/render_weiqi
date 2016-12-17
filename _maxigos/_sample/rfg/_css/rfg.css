@@ -1,0 +1,398 @@
+#flexicontent div.mxRfgGlobalBoxDiv {line-height:1.4em;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxGobanDiv {position:relative;margin:0 auto;}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxGobanDiv canvas {background-image:url(../../../_img/bk/beech.jpg);background-size:cover;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxInnerGobanDiv {box-shadow:0 0.1rem 0.1rem rgba(0,0,0,0.1);}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxInnerGobanDiv[data-maxigos-disabled] {box-shadow:none;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxBBoxDiv,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxSolveDiv {padding-top:0.5em;text-align:center;}
+
+#flexicontent div.mxRfgGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxCommentDiv,
+#flexicontent div.mxRfgGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv,
+#flexicontent div.mxRfgGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxTreeDiv {background:#fff;}
+
+#flexicontent div.mxRfgGlobalBoxDiv [data-maxigos-disabled] {opacity:0.3;}
+
+#flexicontent div.mxRfgGlobalBoxDiv button,
+#flexicontent div.mxRfgGlobalBoxDiv input[type=button] {-webkit-appearance:none;}
+
+#flexicontent div.mxRfgGlobalBoxDiv button:hover {cursor:pointer;}
+#flexicontent div.mxRfgGlobalBoxDiv button[disabled]:hover {cursor:default;}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxBBoxDiv button,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxSolveDiv button,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxOKDiv button,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxVariationsDiv input
+{
+	font-family:Arial,sans-serif;
+	font-size:0.9em !important;
+	margin:1px !important;
+	padding:1px 0.5em !important;
+	background-image:none !important;
+	text-shadow:none !important;
+	color:#000 !important;
+	font-weight:normal !important;
+	height:auto !important;
+	line-height:1.5em !important;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxBBoxDiv button,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxSolveDiv button,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxOKDiv button
+{
+	background-color:#fff !important;
+	border:1px solid #000 !important;
+	border-radius:0 !important;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxVariationsDiv input
+{
+	background-color:#fff !important;
+	border:1px solid #000 !important;
+	border-radius:0 !important;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxGlobalBoxDiv button span
+{
+	display:block;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxOptionDiv,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxPassDiv,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxCutDiv,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxBackToMainDiv,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxSgfDiv {display:inline-block;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxSgfDiv form {margin:0;padding:0;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxPassDiv .mxJustPlayedPassBtn
+{
+	color:#fff !important;
+	border-color:#c33 !important;
+	background-color:#c33 !important;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxPassDiv .mxOnVariationPassBtn
+{
+	color:#000 !important;
+	border-color:#000 !important;
+	background-color:#fff !important;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxPassDiv .mxOnFocusPassBtn
+{
+	color:#c33 !important;
+	border-color: #c33 !important;
+	background-color:#fff !important;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxVariationsDiv
+{
+	margin:0.5em auto 0 auto;
+	text-align:left;
+	line-height:2.25em;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxVariationsDiv span {display:inline-block;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxVariationsDiv span {font-size:1em;padding:0.25em 0.25em 0 0;}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxBBoxDiv button:hover,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxSolveDiv button:hover,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxOKDiv button:hover,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxVariationsDiv input:hover
+{
+	color:#d43845 !important;
+	border:1px solid #d43845 !important;
+	text-decoration:none !important;
+	background-color:#fff !important;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxBBoxDiv button[disabled]:hover,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxSolveDiv button[disabled]:hover
+{
+	background:transparent !important;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxBBoxDiv button[disabled],
+#flexicontent div.mxRfgGlobalBoxDiv div.mxSolveDiv button[disabled]
+{
+	border:1px solid #999 !important;
+	color:#999 !important;
+	text-decoration:none !important;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxGotoDiv {height:0.75em;background:#ccc;margin:1em auto;cursor:pointer;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxGotoDiv canvas {height:0.75em;width:0.75em;background:#000;cursor:pointer;}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxShowOptionDiv h1
+{
+	font-size:1.2em !important;
+	margin:0 !important;
+	padding:0 !important;
+	border:0 !important;
+	text-align:center !important;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxShowOptionDiv
+{
+	position:relative;
+	background-color:#fff;
+	cursor:default;
+	white-space:normal;
+	padding:0.25em 0 4em 0;
+	border:1px solid #000;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxShowContentDiv
+{
+	position:relative;
+	height:100%;
+	overflow:auto;
+	padding:0.5em;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxOKDiv
+{
+	text-align:center;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	border-top:1px solid #000;
+	background:#fff;
+	margin:0;
+	padding:0.5em 0;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxShowOptionDiv input[type=text]
+{
+	border:1px solid #000 !important;
+	background:#fff !important;
+	border-radius:0 !important;
+	text-align:center !important;
+	color:#000 !important;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxShowOptionDiv input[type=text][disabled]
+{
+	border:1px solid #999 !important;
+	background:#fff !important;
+	color:#999 !important;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxShowOptionDiv label
+{
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv.mxGameGlobalBoxDiv div.mxHeaderDiv,
+#flexicontent div.mxRfgGlobalBoxDiv.mxReplayGlobalBoxDiv div.mxHeaderDiv {margin:0 auto 0.5em auto;text-align:left;}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxHeaderDiv h1
+{
+	font-size:1em !important;
+	color:#d43845 !important;
+	text-align:left !important;
+	margin:0 !important;
+	padding:0 !important;
+	border:0 !important;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxHeaderDiv span.mxPBSpan,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxHeaderDiv span.mxPWSpan {font-weight:bold;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxHeaderDiv span {float:none;margin:0;} /* side effect with bootstrap-responsive.css */
+
+#flexicontent div.mxRfgGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxCommentDiv,
+#flexicontent div.mxRfgGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv,
+#flexicontent div.mxRfgGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxTreeDiv {margin:0.5em auto;height:7em;overflow:auto;border:1px solid #999;}
+#flexicontent div.mxRfgGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxCommentContentDiv,
+#flexicontent div.mxRfgGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentContentDiv {padding:0.125em;text-align:justify;}
+#flexicontent div.mxRfgGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxCommentContentDiv h1,
+#flexicontent div.mxRfgGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentContentDiv h1
+{
+	font-size:1em !important;
+	text-align:left !important;
+	margin:0 !important;
+	padding:0 !important;
+	border:0 !important;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv
+{
+	margin:0 auto 0.5em auto;
+	text-align:center;
+}
+#flexicontent div.mxRfgGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxGCP {margin-top:0.5em;}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNotSeenDiv {text-align:left;margin:0.5em auto 0 auto;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxInNotSeenDiv {white-space:nowrap;display:inline-block;padding:0.2em;}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxInNotSeenDiv * {vertical-align:middle;}
+
+#flexicontent div.mxRfgGlobalBoxDiv button
+{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* navigation */
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv
+{
+	margin:0 auto;
+	padding:0.25rem 0;
+	text-align:center;
+	background:transparent;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button
+{
+	font-size:1em !important;
+	width:2em !important;
+	height:1em !important;
+	background-color:transparent !important;
+	background-image:none !important;
+	box-shadow:none !important;
+	border:0 !important;
+	border-radius:0 !important;
+	padding:0 !important;
+	margin:0 0.5em !important;
+	vertical-align:middle !important;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button div
+{
+	display:block;
+	position:relative;
+	top:0;
+	height:1em;
+	width:0;
+	margin:0 auto;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button div span {display:none;}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button div:before,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button div:after
+{
+	top:0;
+	position:absolute;
+	content:"";
+	border-width:0;
+	border-style:solid;
+	border-color:transparent #000;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button:focus div:before,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button:focus div:after,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button:hover div:before,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button:hover div:after
+{
+	border-color:transparent #c33;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button[disabled] div:before,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button[disabled] div:after,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button:hover[disabled] div:before,
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button:hover[disabled] div:after
+{
+	border-color:transparent rgba(0,0,0,0.3);
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:before
+{
+	height:1em;
+	left:-0.3125em;
+	border-width:0 0 0 0.125em;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:after
+{
+	height:0;
+	right:-0.3125em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxPredBtn div:after
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxNextBtn div:before
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:before
+{
+	height:0;
+	left:-0.3125em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:after
+{
+	height:1em;
+	right:-0.3125em;
+	border-width:0 0.125em 0 0;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:before
+{
+	height:0;
+	left:-0.625em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:after
+{
+	height:0;
+	right:-0.625em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:before
+{
+	height:1em;
+	left:0.25em;
+	border-width:0 0 0 0.125em;
+}
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:after
+{
+	height:1em;
+	right:0.25em;
+	border-width:0 0.125em 0 0;
+}
+
+#flexicontent div.mxRfgGlobalBoxDiv div.mxNavigationDiv button::-moz-focus-inner {padding:0;border:0;}
+
+#flexicontent div.mxRfgGlobalBoxDiv .mxSpeedDiv {margin-top:0.5em;text-align:center;}
+#flexicontent div.mxRfgGlobalBoxDiv .mxSpeedDiv div {cursor:pointer;display:inline-block;vertical-align:middle;}
+#flexicontent div.mxRfgGlobalBoxDiv .mxSpeedDiv .mxSpeedPlusBtn,
+#flexicontent div.mxRfgGlobalBoxDiv .mxSpeedDiv .mxSpeedMinusBtn
+{
+	font-size:1em !important;
+	border:0 !important;
+	margin:0 !important;
+	padding:0 !important;
+	width:1em !important;
+	text-align:center !important;
+	vertical-align:middle !important;
+	background-color:transparent !important;
+	background-image:none !important;
+	text-shadow:none !important;
+	color:#000 !important;
+	font-weight:normal !important;
+	height:auto !important;
+	line-height:1.5em !important;
+}
+#flexicontent div.mxRfgGlobalBoxDiv .mxSpeedBarDiv {border:1px solid #666;background-color:#ccc;height:0.5em;width:80%;margin:1em 0.25em;}
+#flexicontent div.mxRfgGlobalBoxDiv .mxSpeedDiv .mxSpeedBarDiv canvas {outline:1px solid #666;background-color:#ccc;height:1em;width:0.5em;top:-0.3em}
+

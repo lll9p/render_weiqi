@@ -1,0 +1,4 @@
+.mxTatamiGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxNotSeenBoxDiv {background:#eee;padding:10px 0;}
+.mxTatamiGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxNotSeenDiv {text-align:left;margin:0 auto;background:#fff;}
+.mxTatamiGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxInNotSeenDiv {white-space:nowrap;display:inline-block;padding:0.1em;}
+.mxTatamiGlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxInNotSeenDiv * {vertical-align:middle;}

@@ -1,0 +1,76 @@
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv
+{margin:0.5em auto;height:7em;overflow:auto;border:1px solid #999;}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv[data-maxigos-disabled] {opacity:0.3;}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentContentDiv {padding:0.25em;text-align:justify;}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv h1 {font-size:1em;text-align:left;margin:0;padding:0;border:0;}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxTreeDiv
+{margin:0.5em auto;padding:0.25em;height:7em;overflow:auto;border:1px solid #999;}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxTreeDiv[data-maxigos-disabled] {opacity:0.3;}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxButtonsBoxDiv {text-align:center;}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxOptionDiv,
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxSgfDiv {display:inline-block;}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxButtonsBoxDiv button,
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxOKDiv button
+{
+	font-family:Arial,sans-serif;
+	font-size:0.875em;
+	height:auto;
+	min-width:6em;
+	border:1px solid #000;
+	margin:1px;
+	padding:0.125em 0.375em;
+	color:#000;
+	background:#fff;
+	box-shadow:none;
+}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxButtonsBoxDiv button
+{
+	background:transparent;
+}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxOKDiv button
+{
+	background:#fff;
+}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv input[type=text]
+{
+	text-align:center;
+}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxShowOptionDiv,
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxShowSgfDiv
+{
+	position:relative;
+	border:1px solid #999;
+	background:#fff;
+}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxShowContentDiv
+{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:2.5em;
+	overflow:auto;
+	padding:0.5em;
+}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxShowContentDiv h1
+{
+	font-size:1.25em;
+	margin:0;
+	padding:0 0 0.5em 0;
+	border:0;
+}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxShowSgfDiv div.mxP
+{
+	font-family:monospace;
+	line-height:normal;
+}
+div.mxNeoClassicGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxOKDiv
+{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	padding:0.5em;
+	text-align:center;
+	background:#eee;
+}

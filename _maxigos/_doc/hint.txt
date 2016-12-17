@@ -1,0 +1,281 @@
+Hint for maxiGos (developer section)
+
+How to change of version
+------------------------
+1) Update the version number
+    Update $v value in _maxigos/_php/version.php (evenly update _maxigos/_doc/license.txt)
+    Update mxG.V value in _maxigos/_js/mgos_lib.js (mxG.V="n.nn";)
+    Update maxiGos version in first commented line of any modified files
+2) Make and upload the new build
+    Make stand-alone players using _maxigos/_php/aloneMaker.php
+    Make plugin zip files (copy _maxigos in plugin folders, then zip them and evenly rename them)
+    Make a zip of _maxigos and give it a name like "_maxigosnnn.zip"
+    Upload _maxigos, _maxigosnnn.zip and plugin zip files
+
+BOM or no BOM
+-------------
+Save files with no BOM
+
+HTML5
+-----
+Add to the top of any html files:
+<!DOCTYPE html>
+<html>
+
+Charset
+-------
+Add <meta charset="UTF-8"> (or any <meta> that set a charset such as Big5, GB18030, Shift_JIS, ...)
+Remember that the server may overwrite this information (check header sent by the server using curl)
+Be sure that sgf is actually encoded in the charset specified in its sgf CA property
+When using a maxiGos player in a page which is not in UTF-8, don't forget to add
+charset="UTF-8" as attribute of the script tag that loads the code of the player
+
+Responsive design
+-----------------
+Add <meta name="viewport" ...> in the head part of html files
+For instance:
+<meta name="viewport" content="initial-scale=1.0,user-scalable=yes"> 
+Evenly add @media queries in css files
+Evenly use maxiGos fitParent parameter
+
+Center comment when "single line" and justify comment when "multiple lines"
+---------------------------------------------------------------------------
+A) first method
+div.mxCommentContentDiv {display:table;margin:0 auto;text-align:justify;}
+B) second method
+div.mxCommentDiv {text-align:center;}
+div.mxCommentContentDiv {display:inline-block;text-align:justify;}
+
+Canvas availability test
+------------------------
+In mxG.CanCn, better to test toDataURL (some browsers support getContext but not toDataURL)
+since maxiGos uses toDataURL
+
+Using data base64 image
+-----------------------
+Take care that base64 data url may contain //
+Careless function for removing comment will corrupt such data
+Evenly, replace // by %2f%2f before removing automatically comments in scripts
+
+Stand-alone player and external resources
+-----------------------------------------
+Remember that stand-alone player will not retrieve external resources (img, js, php, ...)
+if the player is downloaded alone, or moved in a folder which is not the folder where it was built.
+Remember that some samples may use img in their css that are not base64 encoded
+
+Big $POST data may not upload
+-----------------------------
+If big $POST are not upload (for instance, if after a form submit, some $POST['xxx'] remain empty),
+on can put the data in several $POST variables (the size-max can be as low as 1 MB per value 
+on some servers, especially when suhosin is used)
+
+Button styles
+-------------
+Remember that width of a button includes its borders by default
+To remove outline from button on focus (firefox):
+button::-moz-focus-inner {border:0;padding:0;}
+To make button size on focus the same as in other browsers (firefox):
+button::-moz-focus-inner {padding:0;}
+To remove outline from button on focus (chrome):
+button {outline:0;}
+For accessibility reason, if one removes theses outlines, replace it by something else.
+Easier to style button div than button itself since button display is highly browser dependant.
+To hide maxiGos default navigation button content (i.e text such as "|<", "<<", "<", ...):
+button div span {display:none;}
+If the navigation button content is not hidden, some ugly outlines may be displayed by google.
+If flex is used on navigation bar with flex-wrap, use flex:1 0 2em instead of flex:1;
+otherwise safari (at least up to v9) bugs.
+To avoid bug with simplified chinese fonts
+(some simplified chinese chars are too hight, thus buttons have not all the same size),
+give a line-height (for instance 1.25em) to buttons or button divs
+or give a font-family such as arial to buttons
+Border-radius: let it without value, cms may change it but it is nice in many cases
+
+(otherwise some simplified chinese chars are too hight and thus buttons may have different heights).
+Set margin, padding, border, color, background (even to 0 or none)
+to try to avoid upset when using maxiGos in a cms
+
+Android ghost canvas bug
+------------------------
+Sometimes, Android (at least some 4.x versions on samsung) displays a ghost canvas of the goban 
+on the top left of the screen.
+Try to suppress any css overflow:hidden or overflow-x:hidden on any maxiGos contener parents.
+
+Goban shadow bug
+----------------
+At least safari 6.1 and various safari on iOS hides goban shadow if this shadow is set for 
+div.mxGobanDiv canvas. Instead use div.mxInnerGobanDiv to set shadow around the goban.
+
+White/light text on black/dark background bug
+---------------------------------------------
+At least safari 6 and 7, dirty background under text on goban canvas (not reproductible each time).
+To counter it, you can add:
+.mxGobanCanvas {-webkit-font-smoothing:antialiased;}
+But the drawback is that white/light text on black/dark background bug are less readable.
+
+for ... in ... bug
+------------------
+Avoid use "for (x in y)" which cannot work properly with CMS like joomla.
+For instance, joomla 2.5 adds his own properties to some (any?) associative arrays.
+
+language code with a "-"
+------------------------
+Using the "." operator, a javascript property name cannot contains a "-" .
+Thus, use "_" instead of "-" in parameter names in php configuration file.
+Sample:
+	in php
+	$gosParam["optionLabel_zh_tw"]="O";
+	becomes in javascript
+	mxG.D[mxG.K].optionLabel_zh_tw="O";
+
+Comment component
+-----------------
+Set line-height to try to avoid upset when using maxiGos in a cms (?)
+
+Navigation component
+--------------------
+If fitParent&2, font-size will be recalculate. So use px or rem for margin unit to be sure
+to have the same distance to the goban for all configuration of the same theme.
+
+Tree component
+--------------
+TreeDiv must be big enough to contain at least one node,
+otherwise possibly bad scroll position at the beginning (when only one node?)
+
+Keyboard navigation and div with scrollbars
+-------------------------------------------
+When a div has scrollbars, it cannot be focused using tab key on chrome and ie (september 2016),
+but all is OK on firefox. There are bug reports for chrome and ie on that subject.
+Thus add tabindex=0 on mxCommentDiv and mxTreeDiv when the browser is not firefox.
+Note that tabindex=0 allows the div to take the focus even if it has no scrollbars,
+and it is not what one want (i didn't find a simple workarround for that).
+This is the reason why one doesn't add tabindex=0
+when the browser is firefox, since things are working well in this case.
+
+focus
+-----
+A user can force the focus mark to appear setting the convenient option in his browser
+01/09/2016: if the active element is disabled, one can continue to navigate on modern browsers
+using tab key. Focus automatically go to element parent if this parent can get the focus.
+"Navigation" component:
+It seems one need to use focus() on "NavigationDiv" if the button becomes disabled
+to be able to navigate "immediately" using arrow keys (case of the navigation bar),
+The disabled button is still the active element (it has the focus mark)
+but it can lost the focus (on firefox and chrome but not on safari?)
+"Solve" component:
+Tab, shift tab, enter keys and space are all what one need when using keyboard navigation.
+Seems no need to use focus() on "SolveDiv" since one doesn't use keyboard arrows to navigate here.
+
+table
+-----
+To use display:table to shorten element width, inner elements must be block or equivalent, 
+not inline or inline-block
+
+fitParent and scrollbar
+-----------------------
+When fitParent is 1, possible resize loop when scrollbar appears/disappears
+thus compute size of the window as if it has scrollbars even if actually it is not the case.
+Warning: mxG.verticalScrollBarWidth() gives a different result when browser zoom
+
+display:table
+-------------
+Take care when using display:table, numerous possible css side effects.
+For instance with phpBB3, subsilver2 style, a "padding" is added to all tables
+Note: .mxInnerGobanDiv was display:table until maxiGos v6.39
+
+rfg.js on joomla
+----------------
+Images of toolbar don't display on Mac firefox 29.0.1. 
+Force a scroll to make them displayed.
+Note (2016/09/20): Edit is no longer in the rfg sample
+
+Edit component
+--------------
+Both drawEditTools() and setStoneTool() need a setTimeout (the second runs after drawEditTools())
+
+Multi-column break-inside
+-------------------------
+{display:inline-block;} arround the player avoids break inside in case of multi-column (?)
+
+float clear
+-----------
+When using float clear, don't forget to have a surrounding element that sets a new format context
+(i.e. has a css such as overflow:auto;), otherwise unwanted result can occur
+
+Large inline-block
+------------------
+Set an explicit width to inline-block that contains potentially large content
+otherwise it can expand and doesn't stay on one line in the flow
+
+fitParent and goban canvas font-size
+------------------------------------
+When fitParent=1, don't set goban canvas font-size to the new value,
+otherwise browser zooming will stop to work
+
+html tags in sgf
+----------------
+In theory, a sgf record doesn't contain html tags,
+and even if a such tag is found, it should be displayed as any other text, not as html tag.
+To get this result, maxiGos replaces < and > by &lt; and &gt;
+before displaying a text found in the sgf record on the screen.
+Unfortunately, framework editors often add some html tags
+(for instance <br> or <p> tags when the user inserts a line break in a text).
+As a result, sgf records inserted "as is" by the user are polluted by these tags.
+So in such a case, maxiGos replaces any <br> tag by a line break
+(i.e. instead of rewritting <br> in &lt;br&gt;, it lets it as is),
+even in the rare case where it was originally in the sgf record
+(no way to determine if the <br> was inserted by a framework editor or by the user).
+Do a similar procedure with <p> and </p> tags
+(remove <p> and replace </p> by <br><br> when the sgf record is inserted as is by the user).
+
+Forum sample
+------------
+Buttons: z-index:1 otherwise may be not clickable when in phpBB3 (under NavigationDiv)
+
+Iroha sample
+------------
+don't confuse "卄" (U+5344, the good one) and "〹" (U+3039, which doesn't work on android, ios, chrome windows, ...)
+don't confuse "卅" (U+5345, the good one) and "三" (U+303A, which doesn't work on android, ios, chrome windows, ...)
+Bug firefox(?): with iroha, if one uses paper.jpg as background both for "Quit" button and maxiGos buttons
+firefox doesn't end loading the page about half of the time (and thus the goban is not displayed). 
+Workarround: suppress "paper.jpg" as button background. 
+
+Tatami sample
+-------------
+Comment padding left and right: no em, 12px=goban parent padding when no bowl (8px)
++ navigation buttons margin (2px) and shadow or border (2px)
+
+Others (some may be out-of-date, take care)
+-------------------------------------------
+
+Dowload attribute
+// save doesn't work on ie11 (nothing done),
+// half works on safari (download attribute not usable, but no crash)
+// save may not work if long url are not allowed (need to verify this point)
+save=function(f,s)
+{
+	var z=document.createElement('a');
+	z.setAttribute('href','data:text/plain;charset=utf-8,'+encodeURIComponent(s));
+	if (typeof z.download!="undefined") z.setAttribute('download',f);
+	else z.setAttribute('target','_blank');
+	document.body.appendChild(z);
+	z.click();
+	document.body.removeChild(z);
+};
+
+Firefox may freeze when one change a css maxiGos file and then reload the page 
+(happened sometimes on forum sample)
+
+Don't use mouseMove, mouseDown and mouseUp events on Android when select goban area (buggy)
+
+To make CommentDiv and TreeDiv not larger than goban:
+- parent: display:table;
+- .mxCommentDiv {position:relative;overflow:auto;height:9px;} /* set height otherwise no height since content is position:absolute */
+- .mxTreeDiv {overflow:auto;height:9px;} /* TreeDiv is already position:relative */
+- .mxCommentContentDiv {position:absolute;padding:0.5em;} /* padding better here othewise no space on right border */
+- /* TreeDiv content is already absolute */
+
+justify-content:center; bug on ie (result not centered) if buttons have a max-width.
+Safer to give a width to navigationDiv then just use flex to stretch buttons in order to reach navigationDiv edges.
+
+

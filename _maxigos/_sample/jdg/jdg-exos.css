@@ -1,0 +1,37 @@
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv {text-align:center;}
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mx1BoxDiv, .mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mx2BoxDiv {display:inline-block;vertical-align:middle;}
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mx2BoxDiv {width:28em;margin:0 auto;margin-bottom:1.5em;}
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mxGobanDiv {margin:0.5em auto;padding:0 4px 4px 0;font-size:0.9em;}
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mxInnerGobanDiv {box-shadow:1px 1px #965400,2px 2px #965400,3px 3px #965400,4px 4px #965400,8px 8px 8px rgba(0,0,0,0.3);}
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mxGobanDiv canvas {color:#000;background-color:#fcba54;}
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mxCommentDiv
+{
+	margin:0 auto;
+	padding:1em;
+	overflow:auto;
+	text-align:justify;
+	vertical-align:middle;
+}
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mxCommentContentDiv
+{
+	display:table;
+	margin:0 auto;
+}
+
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv .mxBM {color:#3ae;font-size:120%;text-align:center;}
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv .mxTE {color:crimson;font-size:120%;text-align:center;}
+.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv .mxSolveDiv button {font-size:0.875em;}
+
+@media (max-width:30em)
+{
+	.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mx2BoxDiv {width:100%;}
+}
+
+@media (max-width:499px)
+{
+	.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv button {margin:2px !important;padding:3px !important;width:auto !important;}
+}
+@media (max-width:19em)
+{
+	.mxJdgGlobalBoxDiv.mxExosGlobalBoxDiv div.mxCommentDiv {margin:0;padding:0;}
+}

@@ -1,0 +1,20 @@
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv
+{
+	display:table;
+	margin:0 auto;
+	padding:0;
+}
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxGBoxDiv {position:relative;}
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxGobanDiv {margin:0 auto;}
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxGobanDiv canvas {font-size:1.2em;background:#aaa;}
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxNotSeenDiv {text-align:left;margin:0.5em auto 0 auto;}
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxInNotSeenDiv {white-space:nowrap;display:inline-block;padding:0.1em;}
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxInNotSeenDiv * {vertical-align:middle;}
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxCommentDiv {text-align:center;}
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;padding:0.25em;}
+.mxGoInBW2GlobalBoxDiv.mxDiagramGlobalBoxDiv div.mxVersionDiv
+{
+	font-size:0.75em;
+	color:rgba(0,0,0,0.5);
+	text-align:center;
+}

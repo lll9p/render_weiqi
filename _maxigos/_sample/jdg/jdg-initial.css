@@ -1,0 +1,18 @@
+.mxJdgGlobalBoxDiv.mxInitialGlobalBoxDiv div.mxGobanDiv
+{
+	margin:0.5em auto;
+}
+
+.mxJdgGlobalBoxDiv.mxInitialGlobalBoxDiv div.mxInnerGobanDiv
+{
+	/*box-shadow: 0 1em 1em #963;*/
+	box-shadow:1px 1px #965400,2px 2px #965400,3px 3px #965400,4px 4px #965400,8px 8px 8px rgba(0,0,0,0.3);
+}
+
+.mxJdgGlobalBoxDiv.mxInitialGlobalBoxDiv div.mxGobanDiv canvas
+{
+	font-size:0.75em;
+	color:#000;
+	background-color:#fcba54;
+}
+

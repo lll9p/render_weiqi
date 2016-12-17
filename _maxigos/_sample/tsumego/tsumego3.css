@@ -1,0 +1,91 @@
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxErrorDiv {text-align:center;color:#fff;padding:0.25em;background-color:#222;border-radius:1em;}
+
+/* problem of the day */
+
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv {display:table;text-align:center;margin:0 auto;padding:1em;}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv .mxLBoxDiv,
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv .mxRBoxDiv {display:table-cell;vertical-align:middle;padding:0.5em;}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxGobanDiv {margin:0 auto;}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxInnerGobanDiv {box-shadow:0.125em 0.125em 0.5em #999;}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxGobanDiv canvas
+{
+	font-size:0.75em;
+	color:#000;
+	background-image:url(../../_img/bk/kaya.jpg);
+	background-size:cover;
+}
+
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button
+{
+	display:block;
+	margin:1em auto;
+	padding:0;
+	font-size:1em;
+	height:3em;
+	width:3em;
+	border:0;
+	box-shadow:0.125em 0.125em 0.5em #999;
+	background:transparent;
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv .mxRetryBtn div
+{
+	background-image:url('anticlockwise_gapped_circle_arrow.svg');
+	background-size:cover;
+	height:1.5em;
+	width:1.5em;
+	margin:0.75em;
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv .mxUndoBtn div
+{
+	background-image:url('leftwards_arrow_with_hook.svg');
+	background-size:cover;
+	height:1.5em;
+	width:1.5em;
+	margin:0.75em;
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button span
+{
+	display:none;
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button:hover
+{
+	cursor:pointer;
+	background:#c2db8b;
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv .mxRetryBtn:hover div
+{
+	background-image:url('anticlockwise_gapped_circle_arrow_anti.svg');
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv .mxRetryBtn[disabled]:hover div
+{
+	background-image:url('anticlockwise_gapped_circle_arrow.svg');
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv .mxUndoBtn:hover div
+{
+	background-image:url('leftwards_arrow_with_hook_anti.svg');
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv .mxUndoBtn[disabled]:hover div
+{
+	background-image:url('leftwards_arrow_with_hook.svg');
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button[disabled],
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button[disabled]:hover
+{
+	cursor:default;
+	background:#fff;
+}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxCommentDiv {margin:0 auto;padding:0.25em;text-align:center;color:#000;min-height:1.5em;}
+.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;}
+
+@media (max-width:30em)
+{
+	.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv {display:block;padding:0.5em;}
+	.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv .mxLBoxDiv,
+	.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv .mxRBoxDiv {display:block;padding:0.25em;}
+	.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxSolveDiv button {display:inline-block;margin:0 0.5em;}
+	.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv div.mxCommentDiv {padding-bottom:0;}
+}
+@media (max-width:25em)
+{
+	.mxTsumego3GlobalBoxDiv.mxPGlobalBoxDiv {padding:0.25em;}
+}

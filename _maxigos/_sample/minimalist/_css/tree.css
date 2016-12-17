@@ -1,0 +1,6 @@
+div.mxMinimalistGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv
+{margin:0.5em auto;height:8em;overflow:auto;border:1px solid #999;}
+div.mxMinimalistGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentContentDiv {padding:0.25em;text-align:justify;}
+div.mxMinimalistGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxCommentDiv h1 {font-size:1em;text-align:left;margin:0;}
+div.mxMinimalistGlobalBoxDiv.mxTreeGlobalBoxDiv div.mxTreeDiv
+{margin:0.5em auto;padding:0.25em;height:8em;overflow:auto;border:1px solid #999;}

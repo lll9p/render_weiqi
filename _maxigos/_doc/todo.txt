@@ -1,0 +1,15 @@
+Todo list for maxiGos (developer section)
+
+Embed external ressources for stand-alone players (only customStones at the moment)
+Put again image file names in css instead of base64 data since makeAlone.php converts them
+Try to hide goban focus when comming back from another tab or window
+Tatami: measurement of text of prisoner number on bowl when using zoom text only (on safari?)
+Tatami: navigation bar when big buttons, make white-space:wrap; and buttons of same size
+Variations: when sibling mode, add variations when clicking on the goban
+(for the moment, on can just change of variation if it exists
+but one cannot create a new one: this is upset)
+Make mn-bdg-sibling-en.sgf
+Improve The Blood-Vomiting Game comment
+Where come from \x(200E) in sgf files?
+
+

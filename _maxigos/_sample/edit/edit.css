@@ -1,0 +1,548 @@
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv {text-align:center;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxErrorDiv {text-align:center;color:#c33;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv h1 {text-align:center;font-size:1.5em;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv h2 {font-size:1.3em;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv h3 {font-size:1.1em;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mx1BoxDiv,.mxEditGlobalBoxDiv div.mx2BoxDiv
+{
+	display:inline-block;
+	vertical-align:top;
+	padding-top:0.5em;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mx2BoxDiv {padding-left:0.5em;padding-right:0.5em;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxGobanDiv canvas
+{
+	font-size:0.75em;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxVersionDiv
+{
+	display:flex;
+	padding:0.25em;
+	margin:0;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxVersionDiv span
+{
+	flex:1;
+	margin:auto;
+}
+
+@media screen and (max-width:42em)
+{
+	div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mx2BoxDiv {padding-left:0;padding-right:0;}
+}
+
+/* buttons */
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv button,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input[type=button]
+{
+	font-size:1em;
+	line-height:1.125em;
+	margin:0 2px;
+	padding-left:0.25em;
+	padding-right:0.25em;
+	border-radius:0;
+	background:#fff;
+	color:#000;
+	-webkit-appearance:none;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv input[type=text]
+{
+	border-radius:0;
+	-webkit-appearance:none;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv textarea
+{
+	-webkit-appearance:none;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxPassDiv  .mxJustPlayedPassBtn
+{
+	color:#000;
+	border-color:#000;
+	background-color:#fff;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxPassDiv  .mxOnVariationPassBtn
+{
+	color:#000;
+	border-color:#000;
+	background-color:#fff;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxPassDiv  .mxOnFocusPassBtn
+{
+	color:#c33;
+	border-color: #000;
+	background-color:#fff;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv button:hover {cursor:pointer;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv button canvas,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv button img {display:block;margin:0;padding:0;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxPassDiv button[disabled]:hover,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv input[disabled]:hover,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv button[disabled]:hover {cursor:default;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxPassDiv button[disabled] span,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv button[disabled] canvas,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv button[disabled] img {opacity:0.3;}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv button::-moz-focus-inner {padding:0;border:0;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv.mxIn3d div.mxEditToolBarDiv button:focus,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv.mxIn3d div.mxEditToolBarDiv input[type=text]:focus,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv.mxIn2d div.mxEditToolBarDiv button:focus,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv.mxIn2d div.mxEditToolBarDiv input[type=text]:focus {outline:none;border:2px solid #c33;}
+
+/* Edit tools */
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv
+{
+	margin:0 auto;
+	white-space:normal;
+	position:relative;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv button,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv input[type=text]
+{
+	text-align:center;
+	cursor:pointer;
+	display:inline-block;
+	padding:0;
+	vertical-align:middle;
+	background-color:#fff;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv .mxSelectedEditTool,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv input[type=text].mxSelectedEditTool {background-color:#54bafc;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv .mxSuperSelectedEditTool {background-color:#00f;color:#fff;}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditCommentToolDiv
+{
+	background-color:#fff;
+	margin:0.5em 0;
+	padding:0.25em;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditCommentToolDiv textarea
+{
+	height:7.5em;
+	width:100%;
+	margin:0;
+	padding:0;
+	border:0;
+	color:#000;
+	font-weight:normal;
+	resize: none;
+}
+
+/* info */
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv
+{
+	text-align:left;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv div.mxShowContentDiv
+{
+	line-height:1.7em;
+	margin-top:0;
+	padding-top:0;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv label
+{
+	display:inline-block;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv input[type=text],
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv select,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv textarea
+{
+	border:1px solid #999;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv input[type=text],
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv select
+{
+	font-size:0.9em;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxEV,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxRO,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxDT,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxPC
+{
+	width:30%;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxPB,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxPW,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxKM
+{
+	width:30%;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxBR,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxWR
+{
+	text-align:right;
+	width:19%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxHA
+{
+	text-align:right;
+	width:27%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxSC
+{
+	text-align:center;
+	width:8%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxAN,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxCP,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxSO,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxUS,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxRU,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxTM,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxOT,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxON,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxBT,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxWT,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxGN
+{
+	width:38%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxWN,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv label.mxGC
+{
+	width:98%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxPB,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxPW
+{
+	width:37%;
+	margin-right:2%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxBR,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxWR
+{
+	width:7%;
+	margin-left:2%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxKM,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxHA
+{
+	width:18%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxHA
+{
+	margin-left:2%;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxKM
+{
+	margin-right:2%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv select.mxWN,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv select.mxHW
+{
+	width:35%;
+	margin-right:2%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxSC
+{
+	width:14%;
+	margin-left:2%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxEV,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxRO,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxDT,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxPC
+{
+	width:68%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxAN,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxCP,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxSO,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxUS,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxRU,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxTM,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxOT,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxON,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxBT,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxWT,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input.mxGN
+{
+	width:60%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv textarea.mxGC
+{
+	height:5em;
+	width:98%;
+	resize:none;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxInfoPageDiv
+{
+	margin:0 auto;
+	width:96%;
+	padding-top:0.25em;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxInfoPageMenuDiv
+{
+	border-bottom:1px solid #999;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv .mxInfoPageBtn,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv .mxInfoSelectedPageBtn
+{
+	font-size:0.9em;
+	min-width:25%;
+	white-space:nowrap;
+	border:1px solid #999;
+	border-bottom:0;
+	margin:0;
+	padding:0 0.5em;
+	vertical-align:bottom;
+	border-top-left-radius:0.5em;
+	border-top-right-radius:0.5em;
+	box-shadow:none;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv .mxInfoPageMenuDiv button:first-of-type
+{
+	margin-right:0.25em;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv .mxInfoPageBtn
+{
+	background-color:#fff;
+	color:#000;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv .mxInfoSelectedPageBtn
+{
+	background-color:#999;
+	color:#fff;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv .mxBadInput {color:red;}
+
+/* Others */
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxMenuDiv
+{
+	height:1.75em;
+	margin:0 auto;
+	text-align:center;
+	white-space:nowrap;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxOneMenuDiv
+{
+	display:inline-block;
+	text-align:left;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSubMenuDiv
+{
+	position:absolute;
+	z-index:2;
+	display:none;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxOneMenuDiv button
+{
+	text-align:left;
+	margin:0 0.125em 0.25em 0.125em;
+	white-space:nowrap;
+	background:#fff;
+	display:block;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSubMenuDiv button
+{
+	margin:0 0.125em 0 0.125em;
+	padding-right:0.5em;
+	width:100%;
+	width:-moz-available; /* work-around for firefox bug  (at least v16 on mac) */
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSubMenuDiv button.mxCoched,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSubMenuDiv button.mxCochable
+{
+	padding-left:1.25em;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSubMenuDiv button:hover {background:#54bafc;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSubMenuDiv button.mxCoched span:before {position:absolute;left:0.5em;content:"✓";}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxNumberingDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxNewDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxOpenDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSaveDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSendDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxColorsDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowSgfDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowHelpDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv
+{
+	background-color:rgba(255,255,255,1);
+	padding:0 0 3em 0;
+	cursor:default;
+	white-space:normal;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxOpenDiv div.mxP button
+{
+	box-shadow:none;
+	border:0;
+	text-decoration:underline;
+}
+	
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowContentDiv
+{
+	position:relative;
+	height:100%;
+	overflow:auto;
+	padding:0.25em;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowSgfDiv div.mxShowContentDiv textarea
+{
+	height:99%;
+	width:99%;
+	border:0;
+	margin:0 auto;
+	padding:0;
+	background:transparent;
+	resize:none;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxOKDiv
+{
+	text-align:center;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	background:#eee;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxP
+{
+	padding-bottom:0.5em;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSaveDiv div.mxP input,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSendDiv div.mxP input
+{
+	width:80%;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowSgfDiv div.mxP
+{
+	text-align:left;
+	font-family:monospace;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxColorsDiv div.mxP
+{
+	text-align:left;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxColorsDiv label,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxColorsDiv input[type=text]
+{
+	display:inline-block;
+	width:90%;
+	margin-left:1em;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxColorsDiv input.mxGobanBkRadioInput[type=text],
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxColorsDiv label.mxGobanBkRadioInput
+{
+	width:auto;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxColorsDiv input.mxGobanBkRadioInput[type=radio]
+{
+	margin-left:1em;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowHelpDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxNumberingDiv
+{
+	text-align:justify;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxNewDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxOpenDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSaveDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSendDiv
+{
+	text-align:center;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxOpenDiv label
+{
+	display:block;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxImageDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSvgDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSgfDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxPassDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxHelpDiv
+{
+	height:1.75em;
+	display:inline-block;
+}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxTreeDiv
+{
+	padding:0.5em;
+	background-color:#fff;
+	overflow:auto;
+	min-height:2em;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxTreeDiv[data-maxigos-disabled] {opacity:0.3;}
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowHelpDiv h1 {counter-reset:h2;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowHelpDiv h2:before {counter-increment:h2;content:counter(h2) ". ";}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowHelpDiv h2 {counter-reset:h3;}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowHelpDiv h3:before {counter-increment:h3;content:counter(h2) "." counter(h3) ". ";}
+
+/* borders */
+
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowSgfDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxNumberingDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowHelpDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxNewDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxOpenDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSaveDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxSendDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxColorsDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxTreeDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxShowInfoDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditCommentToolDiv,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv button,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv input[type=button]
+{
+	border:1px solid #999;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv button,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv input[type=text]
+{
+	border:2px solid transparent;
+	outline:1px solid #999;
+}
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv button,
+div.mxNeoClassicGlobalBoxDiv.mxEditGlobalBoxDiv div.mxEditToolBarDiv input
+{
+	margin:2px;
+}

@@ -1,0 +1,68 @@
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv
+{
+	padding:0.5em;
+}
+
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxGobanDiv canvas
+{
+	color:#000;
+	font-size:1.125em;
+	background-image:url(gobanBk.png);
+}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv {padding:0 2px;text-align:center;}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv button {margin:0.125em;vertical-align:middle;}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv button:hover {cursor:pointer;}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv button[disabled]:hover {cursor:default;}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxCommentDiv {text-align:center;min-height:1.25em;margin:0.25em;}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxCommentContentDiv
+{
+	display:inline-block;
+	text-align:justify;
+}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv button
+{
+	font-family:Arial,sans-serif;
+	font-weight:bold;
+	height:2em;
+	padding:1px 1em;
+	color:#bc2a4d;
+	border-radius:0.4em;
+	border:1px solid #c7c3be;
+	background:#f1f1f1;
+	background:linear-gradient(to bottom,#fcfcfc,#f1f1f1,#e8e8e8);
+	vertical-align:middle;
+}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv button::-moz-focus-inner {padding:0;}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv button:hover
+{
+	border:1px solid #0a8ed0;
+	background:#f1f1f1;
+	background:linear-gradient(to bottom,#e8e8e8,#f1f1f1,#fcfcfc);
+}
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv button[disabled],
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv button[disabled]:hover
+{
+	opacity:0.5;
+}
+
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxSolveDiv button[disabled]:hover
+{
+	border:1px solid #c7c3be;
+	background-color:#f1f1f1;
+	background:linear-gradient(to bottom,#fcfcfc,#f1f1f1,#e8e8e8);
+}
+
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxCenterBoxDiv
+{
+	position:relative;
+	display:table;
+	margin:0 auto;
+	padding:0;
+}
+
+.mxForumGlobalBoxDiv.mxProblemeGlobalBoxDiv div.mxVersionDiv
+{
+	font-size:0.75em;
+	color:#999;
+	text-align:center;
+}

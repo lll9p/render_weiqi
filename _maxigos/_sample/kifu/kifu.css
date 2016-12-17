@@ -1,0 +1,9 @@
+div.mxMinimalistGlobalBoxDiv.mxKifuGlobalBoxDiv div.mxGobanDiv {margin:0 auto;}
+div.mxMinimalistGlobalBoxDiv.mxKifuGlobalBoxDiv div.mxGobanDiv canvas {font-size:1.25em;}
+div.mxMinimalistGlobalBoxDiv.mxKifuGlobalBoxDiv div.mxHeaderDiv {margin:0 auto;padding:0 1em 1em 1em;text-align:left;}
+div.mxMinimalistGlobalBoxDiv.mxKifuGlobalBoxDiv div.mxNotSeenDiv {text-align:left;margin:0.5em auto 0 auto;}
+div.mxMinimalistGlobalBoxDiv.mxKifuGlobalBoxDiv div.mxInNotSeenDiv {white-space:nowrap;display:inline-block;padding:0.2em;}
+div.mxMinimalistGlobalBoxDiv.mxKifuGlobalBoxDiv div.mxInNotSeenDiv * {vertical-align:middle;}
+div.mxMinimalistGlobalBoxDiv.mxKifuGlobalBoxDiv div.mxVersionDiv {text-align:center;padding-top:0.5em;}
+
+

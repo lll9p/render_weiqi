@@ -1,0 +1,15 @@
+div.mxNeoClassicGlobalBoxDiv {line-height:1.4em;}
+div.mxNeoClassicGlobalBoxDiv div.mxGobanDiv {margin:0 auto;position:relative;}
+div.mxNeoClassicGlobalBoxDiv div.mxGobanDiv canvas
+{
+	background-image:url(../../../_img/bk/beech.jpg);
+	background-size:cover;
+}
+div.mxNeoClassicGlobalBoxDiv.mxIn3d div.mxInnerGobanDiv {box-shadow:0 0.1rem 0.1rem rgba(0,0,0,0.1);}
+div.mxNeoClassicGlobalBoxDiv.mxIn3d div.mxInnerGobanDiv[data-maxigos-disabled] {box-shadow:none;}
+
+div.mxNeoClassicGlobalBoxDiv button:hover {cursor:pointer;}
+div.mxNeoClassicGlobalBoxDiv button[disabled]:hover {cursor:default;}
+div.mxNeoClassicGlobalBoxDiv button::-moz-focus-inner {padding:0;}
+div.mxNeoClassicGlobalBoxDiv div.mxWaitDiv {border:0.125em solid #c33;color:#c33;background:#fff;font-size:2em;}
+div.mxNeoClassicGlobalBoxDiv div.mxVersionDiv {text-align:center;margin-top:0.5em;}

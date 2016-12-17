@@ -1,0 +1,23 @@
+div.mxRosewoodGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv {margin:0 auto 0.5em auto;text-align:center;}
+div.mxRosewoodGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;}
+div.mxRosewoodGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv {text-align:center;margin-top:0.75em;}
+div.mxRosewoodGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button
+{
+	font-family:Arial,sans-serif;
+	font-size:0.875em;
+	height:auto;
+	border:1px solid rgba(0,0,0,0.4);
+	margin:1px;
+	padding:0.25em;
+	color:rgba(0,0,0,0.8);
+	background:transparent;
+	box-shadow:none;
+}
+div.mxRosewoodGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button[disabled]
+{
+	color:rgba(0,0,0,0.4);
+	border:1px solid rgba(0,0,0,0.2);
+}
+div.mxRosewoodGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button:hover {cursor:pointer;}
+div.mxRosewoodGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button[disabled]:hover {cursor:default;}
+

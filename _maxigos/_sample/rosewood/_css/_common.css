@@ -1,0 +1,21 @@
+.mxRosewoodGlobalBoxDiv {line-height:1.4em;}
+.mxRosewoodGlobalBoxDiv div.mxGobanDiv
+{
+	position:relative;
+	background-image:url(../../../_img/bk/rosewood.jpg);
+	background-size:cover;
+	padding:8px;
+	margin:0 auto;
+}
+.mxRosewoodGlobalBoxDiv div.mxGobanDiv canvas
+{
+	display:block;
+	color:#eca;
+	outline:2px solid #eca;
+	font-size:16px;
+}
+.mxRosewoodGlobalBoxDiv div.mxVersionDiv
+{
+	margin-top:0.75em;
+	text-align:center;
+}

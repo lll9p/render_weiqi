@@ -1,0 +1,48 @@
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv {margin:4px;padding:4px;margin-bottom:1.5em;background:#222;position:relative;font-family:Arial,sans-serif;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxGobanBoxDiv,
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentBoxDiv {display:inline-block;vertical-align:top;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxTreeBoxDiv {}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxVersionBoxDiv {}
+
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxGobanDiv
+{
+	padding:0;
+	border:8px solid #654;
+}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxGobanDiv canvas {color:#000;background-image:url(board.png);font-size:1.4em;color:#654;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv
+{
+	padding:0.5em;
+	text-align:justify;
+	height:8em;
+	border-left:2px solid #998;
+	border-top:2px solid #998;
+	background:#bba;
+	overflow:auto;
+}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv div.mxGoodCommentDiv {font-size:0.9em;border:1px solid #4a4;background:#afa;color:#040;margin-top:0.5em;padding:0.1em;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv div.mxBadCommentDiv {font-size:0.9em;border:1px solid #a44;background:#faa;color:#400;margin-top:0.5em;padding:0.1em;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv div.mxOffPathCommentDiv {font-size:0.9em;border:1px solid #44f;background:#aaf;color:#44f;margin-top:0.5em;padding:0.1em;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxVersionDiv {text-align:right;padding-top:0.25em;position:absolute;right:0;}
+
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxTreeDiv
+{
+	display:none;
+	color:#000;
+	height:11em;
+	background-image:url(board.png);
+	overflow:auto;
+	border:4px solid #654;
+	resize:vertical;
+}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolutionDiv,
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxResetDiv {text-align:left;padding:0.25em 0 0.25em 0.5em;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxResetDiv {display:none;}
+
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxLegendDiv {color:#999;display:none;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxLegendDiv ul {padding:0;margin:0;list-style-type:none;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxLegendDiv li {padding:0 0 0 0.5em;margin:0 0 0.125em 0;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxLegendDiv li.mxGood {border-left:2em solid #0f0;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxLegendDiv li.mxBad {border-left:2em solid #f00;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxLegendDiv li.mxUnclear {border-left:2em solid #ff0;}
+div.mxGoProblemsGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxLegendDiv li.mxOffPath {border-left:2em solid #00f;}

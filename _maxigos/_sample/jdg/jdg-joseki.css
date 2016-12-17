@@ -1,0 +1,14 @@
+.mxJdgGlobalBoxDiv.mxJosekiGlobalBoxDiv {text-align:center;}
+.mxJdgGlobalBoxDiv.mxJosekiGlobalBoxDiv div.mxGobanDiv {margin:0.5em auto;padding:0 4px 4px 0;font-size:0.9em;}
+.mxJdgGlobalBoxDiv.mxJosekiGlobalBoxDiv div.mxInnerGobanDiv {box-shadow:1px 1px #965400,2px 2px #965400,3px 3px #965400,4px 4px #965400,8px 8px 8px rgba(0,0,0,0.3);}
+.mxJdgGlobalBoxDiv.mxJosekiGlobalBoxDiv div.mxGobanDiv canvas {color:#000;background-color:#fcba54;}
+.mxJdgGlobalBoxDiv.mxJosekiGlobalBoxDiv div.mxCommentDiv {margin:0 auto;}
+.mxJdgGlobalBoxDiv.mxJosekiGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;padding:0.5em;text-align:justify;}
+
+.mxJdgGlobalBoxDiv.mxJosekiGlobalBoxDiv .mxBM {color:#3ae;font-size:120%;text-align:center;}
+.mxJdgGlobalBoxDiv.mxJosekiGlobalBoxDiv .mxTE {color:crimson;font-size:120%;text-align:center;}
+
+@media (max-width:499px)
+{
+	.mxJdgGlobalBoxDiv.mxJosekiGlobalBoxDiv button {margin:2px;padding:3px;width:auto;}
+}

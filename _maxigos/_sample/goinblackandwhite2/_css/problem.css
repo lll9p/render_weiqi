@@ -1,0 +1,21 @@
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxGBoxDiv
+{
+	display:table;
+	margin:0 auto;
+	padding:0;
+	position:relative;
+}
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxGobanDiv {margin:0 auto;}
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxGobanDiv canvas {font-size:1.2em;color:#000;background:#aaa;}
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv {padding:0.5em 2px;text-align:center;}
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button {font-size:1em;margin:0 0.7em;padding:0;border:0;background-color:transparent;color:#000;text-decoration:underline;}
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button:hover {cursor:pointer;}
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button[disabled],
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button[disabled]:hover {cursor:default;color:#666;}
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv {margin:0 auto;padding:0 2px;text-align:center;min-height:3.7em;}
+.mxGoInBW2GlobalBoxDiv.mxProblemGlobalBoxDiv div.mxVersionDiv
+{
+	font-size:0.75em;
+	color:rgba(0,0,0,0.5);
+	text-align:center;
+}

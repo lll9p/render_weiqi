@@ -1,0 +1,173 @@
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv
+{
+	text-align:center;
+}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxErrorDiv {text-align:center;padding:25px;}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxGobanBoxDiv,
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxPanelBoxDiv
+{
+	display:inline-block;
+	text-align:center;
+}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxGobanBoxDiv
+{
+	padding:0.5em 0;
+	vertical-align:middle;
+}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxPanelBoxDiv
+{
+	margin-left:0.5em;
+	padding:0.5em;
+	width:17em;
+	vertical-align:middle;
+}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxGobanDiv
+{
+	position:relative;
+	margin:0 auto;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv.mxIn3d  div.mxInnerGobanDiv
+{
+	box-shadow:0 0.5em 1em #963;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv.mxIn3d div.mxGobanDiv.mxUnder div.mxInnerGobanDiv
+{
+	box-shadow:none;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxGobanDiv canvas
+{
+	font-size:0.875em;
+	background-color:#fcce9c;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxPassDiv,
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxLoopDiv,
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxImageDiv,
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxSgfDiv
+{
+	display:inline-block;
+	vertical-align:top;
+	padding:0;
+	text-align:center;
+	margin-top:1em;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxShowSgfDiv
+{
+	overflow:auto;
+	background-color:white;
+	padding:0.5em;
+	box-shadow: 0em 0.1em 0.1em #963;
+	cursor:default;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxShowSgfDiv div.mxP
+{
+	text-align:left;
+	font-family:monospace;
+	margin:0 0.5em 0.5em 0.5em;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxShowSgfDiv div.mxOKDiv
+{
+	padding:0.5em;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxOptionDiv
+{
+	text-align:left;
+	margin-bottom:0.5em;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxHeaderDiv
+{
+	text-align:justify;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxHeaderDiv h1
+{
+	font-size:1.2em;
+	margin:0 2em 1em 2em;
+	padding:0;
+	text-align:center;
+	color:#900;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxHeaderDiv div.mxP
+{
+	margin-bottom:1em;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxMoveInfoDiv
+{
+	font-size:0.75em;
+	height:2em;
+	line-height:2em;
+	text-align:center;
+	padding:0.5em 0 0 0;
+}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxMoveInfoDiv img
+{
+	vertical-align:middle;
+	padding-bottom:0.25em;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv .mxSpeedBarDiv {vertical-align:middle;display:inline-block;cursor:pointer;border:1px solid #777;background:#fff;height:0.5em;width:80%;}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv .mxSpeedBarDiv canvas {border:1px solid #777;background:#fff;height:1em;width:0.5em;top:-0.25em}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv .mxSpeedDiv .mxSpeedPlusBtn,
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv .mxSpeedDiv .mxSpeedMinusBtn
+{
+	font-size:1em;
+	border:0;
+	margin:0;
+	padding:0;
+	width:1em;
+	vertical-align:middle;
+	background:transparent;
+	cursor:pointer;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxGuessDiv
+{
+	border:1px solid #777;
+	background:#fff;
+	width:80%;
+	margin:0.5em auto 0 auto;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxGuessOMeterDiv
+{
+	background:#900;
+	height:0.5em;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxGuessOMeterDiv canvas
+{
+	background:#090;
+	display:block;
+	height:0.5em;
+}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv .mxNavigationDiv
+{
+	outline:0;
+	display:flex;
+	margin-top:1em;
+}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv .mxNavigationDiv button
+{
+	flex:1;
+	height:2em;
+}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxPassDiv button div,
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxImageDiv button div,
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxSgfDiv button div {line-height:1.25em;}
+
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv button:hover {cursor:pointer;}
+.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv button[disabled]:hover {cursor:default;}
+
+@media (max-width:799px) {.mxFmGlobalBoxDiv.mxGameGlobalBoxDiv div.mxPanelBoxDiv {width:auto;}}

@@ -1,0 +1,163 @@
+.mxTatamiGlobalBoxDiv div.mxNavigationBoxDiv
+{
+	background:#eee;
+	padding:0.5em 0;
+}
+.mxTatamiGlobalBoxDiv div.mxNavigationDiv
+{
+	line-height:1.8em;
+	margin:0 auto;
+	text-align:center;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-align-items:center;
+	align-items:center;
+	-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+}
+.mxTatamiGlobalBoxDiv div.mxNavigationDiv button
+{
+	-webkit-flex:1 1 2em;
+	flex:1 1 2em;
+	padding:0.2em;
+	min-width:2em;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv input
+{
+	font-family:Arial,sans-serif;
+	font-size:1em;
+	width:2em;
+	height:1em;
+	vertical-align:middle;
+	text-align:center;
+	margin:0;
+	border:1px solid #999;
+	background:transparent;
+}
+
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv button div
+{
+	display:block;
+	position:relative;
+	top:0;
+	height:1em;
+	width:0;
+	margin:0 auto;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv button div span {display:none;}
+
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv button div:before,
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv button div:after
+{
+	top:0;
+	position:absolute;
+	content:"";
+	border-width:0;
+	border-style:solid;
+	border-color:transparent #000;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv button:focus div:before,
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv button:focus div:after
+{
+	border-color:transparent #f00;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv button[disabled] div:before,
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv button[disabled] div:after
+{
+	border-color:transparent #999;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:before
+{
+	height:1em;
+	left:-0.3125em;
+	border-width:0 0 0 0.125em;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:after
+{
+	height:0;
+	right:-0.3125em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxPredBtn div:after
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxNextBtn div:before
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:before
+{
+	height:0;
+	left:-0.3125em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:after
+{
+	height:1em;
+	right:-0.3125em;
+	border-width:0 0.125em 0 0;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:before
+{
+	height:0;
+	left:-0.625em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:after
+{
+	height:0;
+	right:-0.625em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:before
+{
+	height:1em;
+	left:0.25em;
+	border-width:0 0 0 0.125em;
+}
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:after
+{
+	height:1em;
+	right:0.25em;
+	border-width:0 0.125em 0 0;
+}
+
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv button::-moz-focus-inner {padding:0;border:0;}
+
+div.mxTatamiGlobalBoxDiv div.mxNavigationDiv
+{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}

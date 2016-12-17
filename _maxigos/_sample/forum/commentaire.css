@@ -1,0 +1,443 @@
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv
+{
+	display:table;
+	margin:0 auto;
+	padding:0;
+	white-space:normal;
+	color:#000;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxGBoxDiv h1
+{
+	font-size:1em;
+	margin:0;
+	padding:0.5em;
+	color:#000;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCBoxDiv h1
+{
+	font-size:1em;
+	margin:0;
+	padding:0 0 0.5em 0;
+	color:#000;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv button
+{
+	color:#000;
+	outline-color:#0c7fb8;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv button:hover
+{
+	cursor:pointer;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv button[disabled]:hover
+{
+	cursor:default;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv button span
+{
+	display:block;
+	margin:0 auto;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxHBoxDiv,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxGBoxDiv,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCBoxDiv
+{
+	background:#cadceb;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxGobanDiv
+{
+	position:relative;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxGobanDiv canvas
+{
+	font-size:1.125em;
+	background-image:url(gobanBk.png);
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCommentDiv
+{
+	text-align:justify;
+	padding:0.5em 0.5em 1.5em 0.5em;
+	overflow:auto;
+	height:6em;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCommentDiv div.mxHeaderContentDiv div.mxP
+{
+	padding-bottom:0.5em;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxShortWhiteHeaderDiv,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxShortBlackHeaderDiv
+{
+	position:relative;
+	background:#109ee5;
+	text-align:left;
+	height:2.4em;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxShortWhiteHeaderDiv
+{
+	margin-bottom:0.2em;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPlayerDiv
+{
+	position:absolute;
+	top:0;
+	left:2.5em;
+	height:1em;
+	line-height:1em;
+	padding:0.2em;
+	white-space:normal;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv canvas.mxBigStoneCanvas
+{
+	position:absolute;
+	top:0.2em;
+	left:0.2em;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPrisonersDiv
+{
+	position:absolute;
+	bottom:0.25em;
+	right:1.4em;
+	font-size:0.9em;
+	height:1.1em;
+	line-height:1.1em;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv canvas.mxSmallStoneCanvas
+{
+	position:absolute;
+	bottom:0.25em;
+	right:0.25em;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNBoxDiv
+{
+	position:relative;
+	background:#109ee5;
+	text-align:center;
+	height:2.4em;
+	box-shadow:0 0.25em 0.5em rgba(0,0,0,0.25);
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNBoxDiv input
+{
+	border:0;
+	margin:0 0.2em;
+	padding:0;
+	vertical-align:middle;
+	text-align:center;
+	font-size:1em;
+	width:2em;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv
+{
+	position:absolute;
+	text-align:center;
+	height:1.8em;
+	line-height:1.8em;
+	width:100%;
+	top:0em;
+	padding:0.3em 0;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button
+{
+	font-size:1.25em;
+	width:2.5em;
+	height:1.5em;
+	background-color:transparent;
+	background-image:none;
+	box-shadow:none;
+	border:0;
+	padding:0;
+	margin:0;
+	vertical-align:middle;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv input
+{
+	position:relative;
+	font-size:1em;
+	width:2em;
+	height:1em;
+	vertical-align:middle;
+	text-align:center;
+	margin:0;
+	border:1px solid transparent;
+	background:#fff;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button:hover {cursor:pointer;}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button[disabled]:hover {cursor:default;}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button div
+{
+	display:block;
+	position:relative;
+	top:0;
+	height:1em;
+	width:2em;
+	color:transparent;
+	background:transparent;
+	margin:0 auto;
+	border:0.2em solid transparent;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button div span {display:none;}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button:hover div {border:0.2em solid #0c7fb8;border-radius:0.5em;}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button[disabled]:hover div {border:0.2em solid transparent;}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button div:before,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button div:after
+{
+	top:0;
+	position:absolute;
+	content:"";
+	border-width:0;
+	border-style:solid;
+	border-color:transparent #000;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button:focus div:before,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button:focus div:after
+{
+	border-color:transparent rgba(0,0,0,0.3);
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button[disabled] div:before,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button[disabled] div:after
+{
+	opacity:0.20;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:before
+{
+	height:1em;
+	left:0.6875em;
+	border-width:0 0 0 0.125em;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:after
+{
+	height:0;
+	right:0.6875em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:before
+{
+	height:0;
+	left:0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:after
+{
+	height:0;
+	right:0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxPredBtn div:after
+{
+	height:0;
+	left:0.75em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxNextBtn div:before
+{
+	height:0;
+	left:0.75em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:before
+{
+	height:0;
+	left:0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:after
+{
+	height:0;
+	right:0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:before
+{
+	height:0;
+	left:0.6875em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:after
+{
+	height:1em;
+	right:0.6875em;
+	border-width:0 0.125em 0 0;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button {outline:0;}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv button::-moz-focus-inner {padding:0;border:0;}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxNavigationDiv
+{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxGuessDiv,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOptionDiv,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCutDiv,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv
+{
+	position:absolute;
+	height:1.6em;
+	line-height:1.6em;
+	width:1.4em;
+	top:0.5em;
+	z-index:1;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxGuessDiv {left:0.25em;}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOptionDiv {left:2em;}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCutDiv {right:2em;}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv {right:0.25em;}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOptionDiv button,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCutDiv button,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxGuessOMeterDiv
+{
+	display:block;
+	margin:0;
+	padding:0;
+	border:1px solid #000;
+	text-align:center;
+	background:transparent;
+	font-size:1em;
+	width:1.4em;
+	height:1.6em;
+	line-height:1.6em;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+            box-sizing:border-box;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button:focus,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOptionDiv button:focus,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCutDiv button:focus {border:1px solid #de2612;color:#de2612;}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button.mxPassBtn:focus
+{
+	color:#de2612;
+	font-weight:normal;
+	background:transparent;
+	border:1px solid #de2612;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOptionDiv button,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCutDiv button {outline:none;}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button::-moz-focus-inner,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOptionDiv button::-moz-focus-inner,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCutDiv button::-moz-focus-inner {padding:0;border:0;}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button span,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOptionDiv button span,
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCutDiv button span
+{
+	vertical-align:middle;
+	line-height:1.5em;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button[disabled],
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxCutDiv button[disabled] {opacity:0.3;}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxGuessOMeterDiv
+{
+	overflow:hidden;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxGuessOMeterDiv canvas
+{
+	display:block;
+	background:#0a6593;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button.mxJustPlayedPassBtn
+{
+	color:#fff;
+	font-weight:normal;
+	background:#0a6593;
+	border:1px solid #000;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button.mxOnVariationPassBtn
+{
+	color:#000;
+	font-weight:normal;
+	background:#fff;
+	border:1px solid #000;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxPassDiv button.mxOnFocusPassBtn
+{
+	color:#de2612;
+	font-weight:normal;
+	background:#fff;
+	border:1px solid #de2612;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxShowOptionDiv
+{
+	overflow:auto;
+	background:#cadceb;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxShowOptionDiv div.mxP
+{
+	text-align:left;
+	padding:0.5em;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOKDiv
+{
+	text-align:center;
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOKDiv button
+{
+	font-weight:bold;
+	margin:1px;
+	padding:1px 1em;
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOKDiv button
+{
+	text-transform:uppercase;
+	color:#bc2a4d;
+	border-radius:0.4em;
+	border:1px solid #858585;
+	background:#f1f1f1;
+	background:linear-gradient(to top,#dfdfdf,#ffffff);
+}
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxOKDiv button:hover
+{
+	border:1px solid #5195d1;
+	background:#f1f1f1;
+	background:linear-gradient(to top,#ffffff,#dfdfdf);
+}
+
+.mxForumGlobalBoxDiv.mxCommentaireGlobalBoxDiv div.mxVersionDiv
+{
+	font-size:0.75em;
+	color:#999;
+	text-align:center;
+}

@@ -1,0 +1,18 @@
+div.mxMinimalistGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv {margin:0 auto;text-align:center;}
+div.mxMinimalistGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;}
+div.mxMinimalistGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv {text-align:center;margin:0.5em auto;}
+div.mxMinimalistGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button
+{
+	font-family:Arial,sans-serif;
+	font-size:0.875em;
+	height:auto;
+	border:1px solid #000;
+	margin:1px;
+	padding:0.25em;
+	color:#000;
+	background:transparent;
+	box-shadow:none;
+}
+div.mxMinimalistGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button[disabled] {border:1px solid #999;color:#999;}
+div.mxMinimalistGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button:hover {cursor:pointer;}
+div.mxMinimalistGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button[disabled]:hover {cursor:default;}

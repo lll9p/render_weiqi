@@ -1,0 +1,272 @@
+.mxPinkGlobalBoxDiv
+{
+	font-size:18px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.mxPinkGlobalBoxDiv div.mxErrorDiv {text-align:center;padding:25px;}
+
+.mxPinkGlobalBoxDiv div.mxGobanDiv
+{
+	position:relative;
+	margin:0 auto;
+	background-color:#fef;
+	border-radius:0.5em;
+}
+
+.mxPinkGlobalBoxDiv div.mxGobanDiv canvas
+{
+	color:#f69;
+}
+
+/* navigation bar */
+
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv
+{
+	margin:1em auto 0 auto;
+	padding:0 0.25em;
+	text-align:center;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv button
+{
+	font-size:1em;
+	width:2em;
+	height:1em;
+	background-color:transparent;
+	background-image:none;
+	box-shadow:none;
+	border:0;
+	padding:0;
+	margin:0 0.5em;
+	vertical-align:middle;
+}
+
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv button:hover {cursor:pointer;}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv button[disabled]:hover {cursor:default;}
+
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv button div
+{
+	position:relative;
+	top:0;
+	height:1em;
+	width:0;
+	margin:0 auto;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv button div span {display:none;}
+
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv button div:before,
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv button div:after
+{
+	top:0;
+	position:absolute;
+	content:"";
+	border-width:0;
+	border-style:solid;
+	border-color:transparent #fff;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv button[disabled] div:before,
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv button[disabled] div:after
+{
+	border-color:transparent rgba(255,255,255,0.5);
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:before
+{
+	height:1em;
+	left:-0.3125em;
+	border-width:0 0 0 0.125em;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:after
+{
+	height:0;
+	right:-0.3125em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxPredBtn div:after
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxNextBtn div:before
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:before
+{
+	height:0;
+	left:-0.3125em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:after
+{
+	height:1em;
+	right:-0.3125em;
+	border-width:0 0.125em 0 0;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:before
+{
+	height:0;
+	left:-0.625em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:after
+{
+	height:0;
+	right:-0.625em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:before
+{
+	height:1em;
+	left:0.25em;
+	border-width:0 0 0 0.125em;
+}
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:after
+{
+	height:1em;
+	right:0.25em;
+	border-width:0 0.125em 0 0;
+}
+
+div.mxPinkGlobalBoxDiv div.mxNavigationDiv
+{
+	-webkit-touch-callout:none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.mxPinkGlobalBoxDiv div.mxVersionDiv
+{
+	color:#fff;
+	text-align:center;
+	vertical-align:top;
+}
+
+.mxPinkGlobalBoxDiv div.mxVersionDiv:before {color:#fff;content:"♡";vertical-align:bottom;padding-right:0.5em;}
+.mxPinkGlobalBoxDiv div.mxVersionDiv:after {color:#fff;content:"♡";vertical-align:bottom;padding-left:0.5em;}
+
+.mxPinkGlobalBoxDiv .mxSpeedDiv div {cursor:pointer;display:inline-block;vertical-align:middle;}
+.mxPinkGlobalBoxDiv .mxSpeedDiv .mxSpeedPlusBtn,
+.mxPinkGlobalBoxDiv .mxSpeedDiv .mxSpeedMinusBtn
+{
+	font-size:1em;
+	border:0;
+	margin:0;
+	padding:0;
+	width:1em;
+	vertical-align:middle;
+	background-color:transparent;
+}
+.mxPinkGlobalBoxDiv .mxSpeedBarDiv {border:1px solid #fff;background-color:#f69;height:0.5em;margin:1em 0;}
+.mxPinkGlobalBoxDiv .mxSpeedDiv .mxSpeedBarDiv canvas {border:1px solid #fff;background-color:#f69;height:1em;width:0.5em;top:-0.25em}
+
+.mxPinkGlobalBoxDiv .mxSpeedDiv .mxSpeedPlusBtn,
+.mxPinkGlobalBoxDiv .mxSpeedDiv .mxSpeedMinusBtn
+{
+	color:#fff;
+}
+
+.mxPinkGlobalBoxDiv .mxBottomBoxDiv button
+{
+	white-space:normal;
+}
+
+.mxPinkGlobalBoxDiv .mxShowSgfDiv
+{
+	padding-bottom:2.5em;
+	background-color:#fff;
+}
+
+.mxPinkGlobalBoxDiv .mxShowSgfDiv .mxShowContentDiv
+{
+	overflow:auto;	
+	height:100%;
+	width:100%;
+	text-align:left;
+	color:#f69;
+	white-space:normal;
+}
+
+.mxPinkGlobalBoxDiv .mxShowSgfDiv div.mxP
+{
+	margin:1em 1em 1em 1em;
+}
+
+.mxPinkGlobalBoxDiv .mxShowSgfDiv .mxOKDiv
+{
+	text-align:center;
+	height:2.5em;
+	line-height:2.5em;
+	width:100%;
+	background:pink;
+}
+
+.mxPinkGlobalBoxDiv .mxOKDiv button
+{
+	font-size:0.9em;
+	color:#f69;
+	background:#fff;
+	border:0;
+	border:1px solid #f69;
+	margin-left:0.5em;
+	margin-right:0.5em;
+	font-family:cursive;
+	border-radius:1em;
+}
+
+.mxPinkGlobalBoxDiv .mxOKDiv button:hover
+{
+	color:#fff;
+	background:#f69;
+}
+
+/* buttons */
+
+.mxPinkGlobalBoxDiv button:hover {cursor:pointer;}
+.mxPinkGlobalBoxDiv button[disabled]:hover {cursor:default;}
+
+.mxPinkGlobalBoxDiv .mxBottomBoxDiv button
+{
+	font-size:0.66em;
+	border:0;
+	padding:0;
+	margin:0;
+	background-color:transparent;
+	color:#fff;
+	font-family:cursive;
+}
+
+.mxPinkGlobalBoxDiv .mxBottomBoxDiv button:hover
+{
+	text-decoration:underline;
+}

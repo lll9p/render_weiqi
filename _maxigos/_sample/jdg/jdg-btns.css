@@ -1,0 +1,33 @@
+.mxJdgGlobalBoxDiv button,
+.mxJdgGlobalBoxDiv input[type=text] {-webkit-appearance:none;}
+
+.mxJdgGlobalBoxDiv button,
+.mxJdgGlobalBoxDiv input[type=text]
+{
+	font-size:0.875em;
+	border:1px solid #fb2;
+	background:#fff;
+	color:#495257;
+	font-weight:bold;
+	margin:0.125em;
+	border-radius:0;
+	white-space:normal;
+	box-shadow:none;
+	padding-top:0.125em;
+	padding-bottom:0.125em;
+}
+.mxJdgGlobalBoxDiv button:hover {cursor:pointer;}
+.mxJdgGlobalBoxDiv button[disabled]:hover {cursor:default;}
+.mxJdgGlobalBoxDiv input[type=text][disabled],
+.mxJdgGlobalBoxDiv button[disabled] {opacity:0.3;}
+
+.mxJdgGlobalBoxDiv div.mxShowOptionDiv input[type=text]
+{
+	width:2.4em;;
+	text-align:center;;
+}
+.mxJdgGlobalBoxDiv div.mxShowOptionDiv input.mxLoopTimeTextInput,
+.mxJdgGlobalBoxDiv div.mxShowOptionDiv input.mxAnimatedStoneTimeTextInput
+{
+	width:3.6em;
+}

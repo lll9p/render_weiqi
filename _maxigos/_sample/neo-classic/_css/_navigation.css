@@ -1,0 +1,159 @@
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv
+{
+	margin:0 auto;
+	padding:0.5rem 0 0.25rem 0;
+	text-align:center;
+	line-height:0;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button
+{
+	font-size:1em;
+	width:2em;
+	height:1em;
+	background-color:transparent;
+	background-image:none;
+	box-shadow:none;
+	border:0;
+	padding:0;
+	margin:0 0.5em;
+	vertical-align:middle;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv input
+{
+	font-family:Arial,sans-serif;
+	font-size:0.75em;
+	width:2em;
+	height:1em;
+	vertical-align:middle;
+	text-align:center;
+	margin:0;
+	border:1px solid #999;
+	background:transparent;
+}
+
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button div
+{
+	display:block;
+	position:relative;
+	top:0;
+	height:1em;
+	width:0;
+	margin:0 auto;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button div span {display:none;}
+
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button div:before,
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button div:after
+{
+	top:0;
+	position:absolute;
+	content:"";
+	border-width:0;
+	border-style:solid;
+	border-color:transparent #000;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button:focus div:before,
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button:focus div:after
+{
+	border-color:transparent #c33;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button[disabled] div:before,
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button[disabled] div:after
+{
+	border-color:transparent rgba(0,0,0,0.3);
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:before
+{
+	height:1em;
+	left:-0.3125em;
+	border-width:0 0 0 0.125em;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxFirstBtn div:after
+{
+	height:0;
+	right:-0.3125em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxTenPredBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxPredBtn div:after
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxNextBtn div:before
+{
+	height:0;
+	left:-0.25em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:before
+{
+	height:0;
+	left:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxTenNextBtn div:after
+{
+	height:0;
+	right:-0.5em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:before
+{
+	height:0;
+	left:-0.3125em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxLastBtn div:after
+{
+	height:1em;
+	right:-0.3125em;
+	border-width:0 0.125em 0 0;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:before
+{
+	height:0;
+	left:-0.625em;
+	border-width:0.5em 0.5em 0.5em 0; 
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxLoopBtn div:after
+{
+	height:0;
+	right:-0.625em;
+	border-width:0.5em 0 0.5em 0.5em;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:before
+{
+	height:1em;
+	left:0.25em;
+	border-width:0 0 0 0.125em;
+}
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv .mxPauseBtn div:after
+{
+	height:1em;
+	right:0.25em;
+	border-width:0 0.125em 0 0;
+}
+
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv button::-moz-focus-inner {padding:0;border:0;}
+
+div.mxNeoClassicGlobalBoxDiv div.mxNavigationDiv
+{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}

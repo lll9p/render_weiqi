@@ -1,0 +1,19 @@
+div.mxClassicGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentDiv {margin:0 auto 0.5em auto;text-align:center;}
+div.mxClassicGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxCommentContentDiv {display:inline-block;text-align:justify;}
+div.mxClassicGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv {text-align:center;margin:0.75em 0 0.25em 0;}
+div.mxClassicGlobalBoxDiv.mxProblemGlobalBoxDiv div.mxSolveDiv button
+{
+	font-family:Arial,sans-serif;
+	font-size:0.75em;
+	height:auto;
+	border:0;
+	margin:1px;
+	padding:0.25em;
+	color:#000;
+	background:transparent;
+	box-shadow:none;
+}
+div.mxClassicGlobalBoxDiv.mxProblemGlobalBoxDiv.mxIn3d div.mxSolveDiv button {border:0;box-shadow:2px 2px 6px rgba(0,0,0,0.5);}
+div.mxClassicGlobalBoxDiv.mxProblemGlobalBoxDiv.mxIn2d div.mxSolveDiv button {border:1px solid #999;}
+div.mxClassicGlobalBoxDiv.mxProblemGlobalBoxDiv.mxIn3d div.mxSolveDiv button[disabled] {color:#999;box-shadow:2px 2px 6px rgba(153,153,153,0.5);}
+div.mxClassicGlobalBoxDiv.mxProblemGlobalBoxDiv.mxIn2d div.mxSolveDiv button[disabled] {color:#999;border:1px solid #999;}

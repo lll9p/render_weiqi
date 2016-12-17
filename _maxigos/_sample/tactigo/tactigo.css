@@ -1,0 +1,30 @@
+.mxTactigoGlobalBoxDiv.mxProblemOfTheDayGlobalBoxDiv div.mxErrorDiv {text-align:center;padding:25px;}
+
+
+.mxTactigoGlobalBoxDiv.mxProblemOfTheDayGlobalBoxDiv div.mxGobanDiv
+{
+	margin:0 auto;
+}
+
+.mxTactigoGlobalBoxDiv.mxProblemOfTheDayGlobalBoxDiv div.mxInnerGobanDiv
+{
+	box-shadow:2px 2px 16px rgba(0,0,0,0.3);
+}
+
+.mxTactigoGlobalBoxDiv.mxProblemOfTheDayGlobalBoxDiv div.mxGobanDiv canvas
+{
+	color:#333;
+	background-color:#e5ba80;
+}
+
+.mxTactigoGlobalBoxDiv.mxProblemOfTheDayGlobalBoxDiv div.mxCommentDiv
+{
+	padding-top:0.5em;
+	text-align:center;
+	margin:0 auto;
+}
+
+.mxTactigoGlobalBoxDiv.mxProblemOfTheDayGlobalBoxDiv div.mxSolveDiv
+{
+	display:none;
+}

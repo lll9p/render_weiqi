@@ -1,0 +1,163 @@
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv
+{
+	display:table;
+	margin:0 auto;
+	padding:0;
+	background-color:#466;
+	border:1px solid #555;
+}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv button,
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv input[type=button] {-webkit-appearance:none;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxErrorDiv {text-align:center;color:#fff;margin:0.5em;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGobanDiv {background-color:#665544;margin:0 auto;padding:0.5em;font-size:0.75em;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGobanDiv canvas {background-color:#ddbc6b;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxCommentDiv
+{
+	margin:0 auto;
+	text-align:justify;
+	height:5.5em;
+	background-color:#ccb;
+	color:#000;
+	overflow:auto;
+	padding:0.5em 0.5em 0 0.5em;
+	border-radius:0;
+}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxHeaderContentDiv {background-color:#bba;color:#443;padding:0.25em 0.25em 0 0.25em;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxHeaderContentDiv h1 {font-size:1em;text-align:left;margin-top:0;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxHeaderContentDiv div.mxP {margin-bottom:0.5em;}
+
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv {float:left;white-space:nowrap;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button,
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxPassDiv button
+{
+	font-size:0.75em;
+	height:1.5em;
+	margin:0 0.1em;
+	vertical-align:middle;
+	background-color:#ddd;
+	border-top:1px solid #fcfafc;
+	border-left:1px solid #fcfafc;
+	border-right:1px solid #fcfafc;
+	border-bottom:1px solid #c4c6c4;
+	outline:1px solid #000;
+	background:linear-gradient(to top,#fcfafc,#ddd,#999);
+}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button::-moz-focus-inner,
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxPassDiv button::-moz-focus-inner,
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv input::-moz-focus-inner {padding:0;border:0;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button:focus,
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxPassDiv button:focus,
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv input:focus
+{
+	outline:1px solid #fff;
+}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button {color:#ec1e24;padding:0;width:3.25em;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button:hover {cursor:pointer;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button[disabled]:hover {cursor:default;}
+
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mx2BoxDiv {text-align:center;padding:0.5em 0.1em 0 0.1em;line-height:1.25em;height:1.5em;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxMoveInfoDiv
+{
+	display:inline-block;
+	font-size:0.75em;
+	color:#acc;
+	width:5em;
+	text-align:center;
+}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxMoveInfoDiv img
+{
+	vertical-align:middle;
+}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxPassDiv
+{
+	float:right;
+}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxPassDiv  button
+{
+	color:#000;
+	text-transform:uppercase;
+	line-height:1em;
+}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxPassDiv  button.mxJustPlayedPassBtn
+{
+	color:#11d;
+}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxPassDiv  button.mxOnVariationPassBtn
+{
+	color:#d11;
+}
+
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mx3BoxDiv {clear:both;padding-top:0.5em;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGotoDiv {height:0.75em;background-color:#244;outline:1px solid #122;cursor:pointer;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGotoDiv canvas {height:0.75em;width:0.75em;background-color:#ec1e24;cursor:pointer;}
+
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv {text-align:left;padding:0.25em;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv span {display:inline-block;color:#acc;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv span {font-size:0.75em;padding:0.25em 0.25em 0 0;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxVariationsDiv input
+{
+	font-size:0.75em;
+	text-align:center;
+	color:#b00;border:0;
+	margin:0 0.1em;
+	padding:0;
+	background-color:#799;
+	width:1.5em;
+	font-weight:bold;
+}
+
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGuessDiv {position:relative;height:0.75em;background-color:#ec1e24;margin:0;outline:1px solid #122;}
+.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGuessDiv canvas {background-color:#244;}
+
+@media (max-width:439px)
+{
+	.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxMoveInfoDiv
+	{
+		display:none !important;
+	}
+	.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGobanDiv canvas
+	{
+		font-size:11px !important;
+	}
+	.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button
+	{
+		margin:0 0.1em !important;
+		width:3em;
+	}
+}
+@media (max-width:399px)
+{
+	.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGobanDiv canvas
+	{
+		font-size:10px !important;
+	}
+	.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button
+	{
+		adding:0 0.4em !important;
+		width:2.75em;
+	}
+}
+@media (max-width:359px)
+{
+	.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGobanDiv canvas
+	{
+		font-size:9px !important;
+	}
+	.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button
+	{
+		width:2.5em;
+	}
+}
+@media (max-width:319px)
+{
+	.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxGobanDiv canvas
+	{
+		font-size:7px !important;
+	}
+	.mxEidogoGlobalBoxDiv.mxCommentGlobalBoxDiv div.mxNavigationDiv button
+	{
+		width:2em;
+	}
+}
+
+
