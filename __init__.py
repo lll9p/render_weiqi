@@ -1,1 +1,1 @@
-from .maxigos import *
+from .weiqi import *
