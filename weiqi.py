@@ -9,6 +9,8 @@ import sys
 
 from pelican import signals, generators
 
+def weiqi():
+    pass
 
 def register():
     """Plugin registration"""
